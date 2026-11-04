@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+release/_work/
+release/extrema/
+release/presentation_index.parquet
+release/manifest.json
+release/run_state.json

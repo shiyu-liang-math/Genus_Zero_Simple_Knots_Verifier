@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: >-
+  If you use the verifier or generated data, please cite the companion paper
+  Genus Zero Simple Knots by Joshua Evan Greene, Shiyu Liang, and John Luecke
+  (2026), and cite this software release when one is published.
+title: Genus Zero Simple Knots Verifier
+type: software
+authors:
+  - family-names: Liang
+    given-names: Shiyu
+year: 2026
+license: MIT

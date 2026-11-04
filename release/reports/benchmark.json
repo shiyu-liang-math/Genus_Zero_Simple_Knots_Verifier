@@ -1,0 +1,60 @@
+{
+  "direct_cross_checks": [
+    {
+      "c": 1,
+      "direct_seconds": 1.2874836102128029e-05,
+      "m": 6,
+      "optimized_python_seconds": 2.429191954433918e-05,
+      "q": 5
+    },
+    {
+      "c": 7,
+      "direct_seconds": 4.441710188984871e-05,
+      "m": 16,
+      "optimized_python_seconds": 4.787486977875233e-05,
+      "q": 15
+    },
+    {
+      "c": 29,
+      "direct_seconds": 0.00016799988225102425,
+      "m": 31,
+      "optimized_python_seconds": 9.22088511288166e-05,
+      "q": 30
+    }
+  ],
+  "native_partitions": [
+    {
+      "presentations": 65,
+      "q": 100,
+      "repeat": 5,
+      "rows": 2600,
+      "rows_per_second": 403004.0,
+      "seconds": 0.0322577
+    },
+    {
+      "presentations": 124,
+      "q": 300,
+      "repeat": 5,
+      "rows": 9920,
+      "rows_per_second": 152664.0,
+      "seconds": 0.324896
+    },
+    {
+      "presentations": 242,
+      "q": 600,
+      "repeat": 5,
+      "rows": 38720,
+      "rows_per_second": 76153.8,
+      "seconds": 2.54222
+    }
+  ],
+  "full_sweep": {
+    "q_min": 2,
+    "q_max": 600,
+    "rows": 36548348,
+    "seconds_including_partition_io_and_validation": 455.25027025002055,
+    "average_rows_per_second": 80281.88937883734
+  },
+  "note": "Native throughput depends strongly on q; the full-sweep timing includes atomic Parquet writes and per-partition validation.",
+  "threads": 8
+}

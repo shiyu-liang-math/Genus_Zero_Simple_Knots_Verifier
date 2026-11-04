@@ -1,0 +1,6043 @@
+{
+  "coverage": {
+    "column_errors": 0,
+    "extra_keys": 0,
+    "missing_keys": 0
+  },
+  "deduplicated": {
+    "computed_genus_zero": 510740,
+    "computed_not_expected": 0,
+    "expected_bbl": 510740,
+    "expected_not_computed": 0,
+    "intersection": 510740,
+    "presentations": 141834,
+    "rows": 36548348
+  },
+  "inclusive": true,
+  "per_family_provenance_weighted": {
+    "case1_gcd1": {
+      "computed_genus_zero_memberships": 871202,
+      "distinct_presentations": 109500,
+      "predicted_memberships": 871202,
+      "provenance_rows": 218998,
+      "tested_memberships": 61665706
+    },
+    "case1_gcd2": {
+      "computed_genus_zero_memberships": 109588,
+      "distinct_presentations": 27399,
+      "predicted_memberships": 109588,
+      "provenance_rows": 54795,
+      "tested_memberships": 9266804
+    },
+    "case2_odd_2q": {
+      "computed_genus_zero_memberships": 22150,
+      "distinct_presentations": 2784,
+      "predicted_memberships": 22142,
+      "provenance_rows": 5536,
+      "tested_memberships": 1201918
+    },
+    "case3_odd_q": {
+      "computed_genus_zero_memberships": 12384,
+      "distinct_presentations": 2947,
+      "predicted_memberships": 12384,
+      "provenance_rows": 2947,
+      "tested_memberships": 643212
+    }
+  },
+  "per_q": [
+    {
+      "computed_genus_zero": 2,
+      "computed_not_expected": 0,
+      "expected_bbl": 2,
+      "expected_not_computed": 0,
+      "intersection": 2,
+      "presentations": 2,
+      "q": 2,
+      "rows": 2
+    },
+    {
+      "computed_genus_zero": 4,
+      "computed_not_expected": 0,
+      "expected_bbl": 4,
+      "expected_not_computed": 0,
+      "intersection": 4,
+      "presentations": 2,
+      "q": 3,
+      "rows": 4
+    },
+    {
+      "computed_genus_zero": 6,
+      "computed_not_expected": 0,
+      "expected_bbl": 6,
+      "expected_not_computed": 0,
+      "intersection": 6,
+      "presentations": 3,
+      "q": 4,
+      "rows": 6
+    },
+    {
+      "computed_genus_zero": 16,
+      "computed_not_expected": 0,
+      "expected_bbl": 16,
+      "expected_not_computed": 0,
+      "intersection": 16,
+      "presentations": 5,
+      "q": 5,
+      "rows": 20
+    },
+    {
+      "computed_genus_zero": 8,
+      "computed_not_expected": 0,
+      "expected_bbl": 8,
+      "expected_not_computed": 0,
+      "intersection": 8,
+      "presentations": 4,
+      "q": 6,
+      "rows": 8
+    },
+    {
+      "computed_genus_zero": 32,
+      "computed_not_expected": 0,
+      "expected_bbl": 32,
+      "expected_not_computed": 0,
+      "intersection": 32,
+      "presentations": 8,
+      "q": 7,
+      "rows": 48
+    },
+    {
+      "computed_genus_zero": 24,
+      "computed_not_expected": 0,
+      "expected_bbl": 24,
+      "expected_not_computed": 0,
+      "intersection": 24,
+      "presentations": 8,
+      "q": 8,
+      "rows": 32
+    },
+    {
+      "computed_genus_zero": 26,
+      "computed_not_expected": 0,
+      "expected_bbl": 26,
+      "expected_not_computed": 0,
+      "intersection": 26,
+      "presentations": 7,
+      "q": 9,
+      "rows": 42
+    },
+    {
+      "computed_genus_zero": 28,
+      "computed_not_expected": 0,
+      "expected_bbl": 28,
+      "expected_not_computed": 0,
+      "intersection": 28,
+      "presentations": 10,
+      "q": 10,
+      "rows": 40
+    },
+    {
+      "computed_genus_zero": 50,
+      "computed_not_expected": 0,
+      "expected_bbl": 50,
+      "expected_not_computed": 0,
+      "intersection": 50,
+      "presentations": 13,
+      "q": 11,
+      "rows": 130
+    },
+    {
+      "computed_genus_zero": 20,
+      "computed_not_expected": 0,
+      "expected_bbl": 20,
+      "expected_not_computed": 0,
+      "intersection": 20,
+      "presentations": 7,
+      "q": 12,
+      "rows": 28
+    },
+    {
+      "computed_genus_zero": 62,
+      "computed_not_expected": 0,
+      "expected_bbl": 62,
+      "expected_not_computed": 0,
+      "intersection": 62,
+      "presentations": 16,
+      "q": 13,
+      "rows": 192
+    },
+    {
+      "computed_genus_zero": 44,
+      "computed_not_expected": 0,
+      "expected_bbl": 44,
+      "expected_not_computed": 0,
+      "intersection": 44,
+      "presentations": 15,
+      "q": 14,
+      "rows": 90
+    },
+    {
+      "computed_genus_zero": 34,
+      "computed_not_expected": 0,
+      "expected_bbl": 34,
+      "expected_not_computed": 0,
+      "intersection": 34,
+      "presentations": 9,
+      "q": 15,
+      "rows": 72
+    },
+    {
+      "computed_genus_zero": 48,
+      "computed_not_expected": 0,
+      "expected_bbl": 48,
+      "expected_not_computed": 0,
+      "intersection": 48,
+      "presentations": 15,
+      "q": 16,
+      "rows": 120
+    },
+    {
+      "computed_genus_zero": 82,
+      "computed_not_expected": 0,
+      "expected_bbl": 82,
+      "expected_not_computed": 0,
+      "intersection": 82,
+      "presentations": 21,
+      "q": 17,
+      "rows": 336
+    },
+    {
+      "computed_genus_zero": 40,
+      "computed_not_expected": 0,
+      "expected_bbl": 40,
+      "expected_not_computed": 0,
+      "intersection": 40,
+      "presentations": 14,
+      "q": 18,
+      "rows": 84
+    },
+    {
+      "computed_genus_zero": 86,
+      "computed_not_expected": 0,
+      "expected_bbl": 86,
+      "expected_not_computed": 0,
+      "intersection": 86,
+      "presentations": 22,
+      "q": 19,
+      "rows": 396
+    },
+    {
+      "computed_genus_zero": 48,
+      "computed_not_expected": 0,
+      "expected_bbl": 48,
+      "expected_not_computed": 0,
+      "intersection": 48,
+      "presentations": 15,
+      "q": 20,
+      "rows": 120
+    },
+    {
+      "computed_genus_zero": 54,
+      "computed_not_expected": 0,
+      "expected_bbl": 54,
+      "expected_not_computed": 0,
+      "intersection": 54,
+      "presentations": 14,
+      "q": 21,
+      "rows": 168
+    },
+    {
+      "computed_genus_zero": 76,
+      "computed_not_expected": 0,
+      "expected_bbl": 76,
+      "expected_not_computed": 0,
+      "intersection": 76,
+      "presentations": 25,
+      "q": 22,
+      "rows": 250
+    },
+    {
+      "computed_genus_zero": 106,
+      "computed_not_expected": 0,
+      "expected_bbl": 106,
+      "expected_not_computed": 0,
+      "intersection": 106,
+      "presentations": 27,
+      "q": 23,
+      "rows": 594
+    },
+    {
+      "computed_genus_zero": 44,
+      "computed_not_expected": 0,
+      "expected_bbl": 44,
+      "expected_not_computed": 0,
+      "intersection": 44,
+      "presentations": 14,
+      "q": 24,
+      "rows": 112
+    },
+    {
+      "computed_genus_zero": 94,
+      "computed_not_expected": 0,
+      "expected_bbl": 94,
+      "expected_not_computed": 0,
+      "intersection": 94,
+      "presentations": 24,
+      "q": 25,
+      "rows": 480
+    },
+    {
+      "computed_genus_zero": 84,
+      "computed_not_expected": 0,
+      "expected_bbl": 84,
+      "expected_not_computed": 0,
+      "intersection": 84,
+      "presentations": 28,
+      "q": 26,
+      "rows": 336
+    },
+    {
+      "computed_genus_zero": 86,
+      "computed_not_expected": 0,
+      "expected_bbl": 86,
+      "expected_not_computed": 0,
+      "intersection": 86,
+      "presentations": 22,
+      "q": 27,
+      "rows": 396
+    },
+    {
+      "computed_genus_zero": 76,
+      "computed_not_expected": 0,
+      "expected_bbl": 76,
+      "expected_not_computed": 0,
+      "intersection": 76,
+      "presentations": 23,
+      "q": 28,
+      "rows": 276
+    },
+    {
+      "computed_genus_zero": 130,
+      "computed_not_expected": 0,
+      "expected_bbl": 130,
+      "expected_not_computed": 0,
+      "intersection": 130,
+      "presentations": 33,
+      "q": 29,
+      "rows": 924
+    },
+    {
+      "computed_genus_zero": 44,
+      "computed_not_expected": 0,
+      "expected_bbl": 44,
+      "expected_not_computed": 0,
+      "intersection": 44,
+      "presentations": 16,
+      "q": 30,
+      "rows": 128
+    },
+    {
+      "computed_genus_zero": 142,
+      "computed_not_expected": 0,
+      "expected_bbl": 142,
+      "expected_not_computed": 0,
+      "intersection": 142,
+      "presentations": 36,
+      "q": 31,
+      "rows": 1080
+    },
+    {
+      "computed_genus_zero": 104,
+      "computed_not_expected": 0,
+      "expected_bbl": 104,
+      "expected_not_computed": 0,
+      "intersection": 104,
+      "presentations": 31,
+      "q": 32,
+      "rows": 496
+    },
+    {
+      "computed_genus_zero": 90,
+      "computed_not_expected": 0,
+      "expected_bbl": 90,
+      "expected_not_computed": 0,
+      "intersection": 90,
+      "presentations": 23,
+      "q": 33,
+      "rows": 460
+    },
+    {
+      "computed_genus_zero": 112,
+      "computed_not_expected": 0,
+      "expected_bbl": 112,
+      "expected_not_computed": 0,
+      "intersection": 112,
+      "presentations": 37,
+      "q": 34,
+      "rows": 592
+    },
+    {
+      "computed_genus_zero": 110,
+      "computed_not_expected": 0,
+      "expected_bbl": 110,
+      "expected_not_computed": 0,
+      "intersection": 110,
+      "presentations": 28,
+      "q": 35,
+      "rows": 672
+    },
+    {
+      "computed_genus_zero": 64,
+      "computed_not_expected": 0,
+      "expected_bbl": 64,
+      "expected_not_computed": 0,
+      "intersection": 64,
+      "presentations": 20,
+      "q": 36,
+      "rows": 240
+    },
+    {
+      "computed_genus_zero": 166,
+      "computed_not_expected": 0,
+      "expected_bbl": 166,
+      "expected_not_computed": 0,
+      "intersection": 166,
+      "presentations": 42,
+      "q": 37,
+      "rows": 1512
+    },
+    {
+      "computed_genus_zero": 132,
+      "computed_not_expected": 0,
+      "expected_bbl": 132,
+      "expected_not_computed": 0,
+      "intersection": 132,
+      "presentations": 43,
+      "q": 38,
+      "rows": 774
+    },
+    {
+      "computed_genus_zero": 110,
+      "computed_not_expected": 0,
+      "expected_bbl": 110,
+      "expected_not_computed": 0,
+      "intersection": 110,
+      "presentations": 28,
+      "q": 39,
+      "rows": 672
+    },
+    {
+      "computed_genus_zero": 92,
+      "computed_not_expected": 0,
+      "expected_bbl": 92,
+      "expected_not_computed": 0,
+      "intersection": 92,
+      "presentations": 28,
+      "q": 40,
+      "rows": 448
+    },
+    {
+      "computed_genus_zero": 182,
+      "computed_not_expected": 0,
+      "expected_bbl": 182,
+      "expected_not_computed": 0,
+      "intersection": 182,
+      "presentations": 46,
+      "q": 41,
+      "rows": 1840
+    },
+    {
+      "computed_genus_zero": 76,
+      "computed_not_expected": 0,
+      "expected_bbl": 76,
+      "expected_not_computed": 0,
+      "intersection": 76,
+      "presentations": 26,
+      "q": 42,
+      "rows": 312
+    },
+    {
+      "computed_genus_zero": 194,
+      "computed_not_expected": 0,
+      "expected_bbl": 194,
+      "expected_not_computed": 0,
+      "intersection": 194,
+      "presentations": 49,
+      "q": 43,
+      "rows": 2058
+    },
+    {
+      "computed_genus_zero": 116,
+      "computed_not_expected": 0,
+      "expected_bbl": 116,
+      "expected_not_computed": 0,
+      "intersection": 116,
+      "presentations": 35,
+      "q": 44,
+      "rows": 700
+    },
+    {
+      "computed_genus_zero": 110,
+      "computed_not_expected": 0,
+      "expected_bbl": 110,
+      "expected_not_computed": 0,
+      "intersection": 110,
+      "presentations": 28,
+      "q": 45,
+      "rows": 672
+    },
+    {
+      "computed_genus_zero": 156,
+      "computed_not_expected": 0,
+      "expected_bbl": 156,
+      "expected_not_computed": 0,
+      "intersection": 156,
+      "presentations": 51,
+      "q": 46,
+      "rows": 1122
+    },
+    {
+      "computed_genus_zero": 202,
+      "computed_not_expected": 0,
+      "expected_bbl": 202,
+      "expected_not_computed": 0,
+      "intersection": 202,
+      "presentations": 51,
+      "q": 47,
+      "rows": 2346
+    },
+    {
+      "computed_genus_zero": 88,
+      "computed_not_expected": 0,
+      "expected_bbl": 88,
+      "expected_not_computed": 0,
+      "intersection": 88,
+      "presentations": 27,
+      "q": 48,
+      "rows": 432
+    },
+    {
+      "computed_genus_zero": 190,
+      "computed_not_expected": 0,
+      "expected_bbl": 190,
+      "expected_not_computed": 0,
+      "intersection": 190,
+      "presentations": 48,
+      "q": 49,
+      "rows": 2016
+    },
+    {
+      "computed_genus_zero": 140,
+      "computed_not_expected": 0,
+      "expected_bbl": 140,
+      "expected_not_computed": 0,
+      "intersection": 140,
+      "presentations": 46,
+      "q": 50,
+      "rows": 920
+    },
+    {
+      "computed_genus_zero": 138,
+      "computed_not_expected": 0,
+      "expected_bbl": 138,
+      "expected_not_computed": 0,
+      "intersection": 138,
+      "presentations": 35,
+      "q": 51,
+      "rows": 1120
+    },
+    {
+      "computed_genus_zero": 144,
+      "computed_not_expected": 0,
+      "expected_bbl": 144,
+      "expected_not_computed": 0,
+      "intersection": 144,
+      "presentations": 43,
+      "q": 52,
+      "rows": 1032
+    },
+    {
+      "computed_genus_zero": 242,
+      "computed_not_expected": 0,
+      "expected_bbl": 242,
+      "expected_not_computed": 0,
+      "intersection": 242,
+      "presentations": 61,
+      "q": 53,
+      "rows": 3172
+    },
+    {
+      "computed_genus_zero": 112,
+      "computed_not_expected": 0,
+      "expected_bbl": 112,
+      "expected_not_computed": 0,
+      "intersection": 112,
+      "presentations": 38,
+      "q": 54,
+      "rows": 684
+    },
+    {
+      "computed_genus_zero": 178,
+      "computed_not_expected": 0,
+      "expected_bbl": 178,
+      "expected_not_computed": 0,
+      "intersection": 178,
+      "presentations": 45,
+      "q": 55,
+      "rows": 1800
+    },
+    {
+      "computed_genus_zero": 136,
+      "computed_not_expected": 0,
+      "expected_bbl": 136,
+      "expected_not_computed": 0,
+      "intersection": 136,
+      "presentations": 41,
+      "q": 56,
+      "rows": 984
+    },
+    {
+      "computed_genus_zero": 158,
+      "computed_not_expected": 0,
+      "expected_bbl": 158,
+      "expected_not_computed": 0,
+      "intersection": 158,
+      "presentations": 40,
+      "q": 57,
+      "rows": 1440
+    },
+    {
+      "computed_genus_zero": 192,
+      "computed_not_expected": 0,
+      "expected_bbl": 192,
+      "expected_not_computed": 0,
+      "intersection": 192,
+      "presentations": 63,
+      "q": 58,
+      "rows": 1764
+    },
+    {
+      "computed_genus_zero": 266,
+      "computed_not_expected": 0,
+      "expected_bbl": 266,
+      "expected_not_computed": 0,
+      "intersection": 266,
+      "presentations": 67,
+      "q": 59,
+      "rows": 3886
+    },
+    {
+      "computed_genus_zero": 88,
+      "computed_not_expected": 0,
+      "expected_bbl": 88,
+      "expected_not_computed": 0,
+      "intersection": 88,
+      "presentations": 27,
+      "q": 60,
+      "rows": 432
+    },
+    {
+      "computed_genus_zero": 262,
+      "computed_not_expected": 0,
+      "expected_bbl": 262,
+      "expected_not_computed": 0,
+      "intersection": 262,
+      "presentations": 66,
+      "q": 61,
+      "rows": 3960
+    },
+    {
+      "computed_genus_zero": 204,
+      "computed_not_expected": 0,
+      "expected_bbl": 204,
+      "expected_not_computed": 0,
+      "intersection": 204,
+      "presentations": 67,
+      "q": 62,
+      "rows": 2010
+    },
+    {
+      "computed_genus_zero": 154,
+      "computed_not_expected": 0,
+      "expected_bbl": 154,
+      "expected_not_computed": 0,
+      "intersection": 154,
+      "presentations": 39,
+      "q": 63,
+      "rows": 1404
+    },
+    {
+      "computed_genus_zero": 184,
+      "computed_not_expected": 0,
+      "expected_bbl": 184,
+      "expected_not_computed": 0,
+      "intersection": 184,
+      "presentations": 55,
+      "q": 64,
+      "rows": 1760
+    },
+    {
+      "computed_genus_zero": 206,
+      "computed_not_expected": 0,
+      "expected_bbl": 206,
+      "expected_not_computed": 0,
+      "intersection": 206,
+      "presentations": 52,
+      "q": 65,
+      "rows": 2496
+    },
+    {
+      "computed_genus_zero": 132,
+      "computed_not_expected": 0,
+      "expected_bbl": 132,
+      "expected_not_computed": 0,
+      "intersection": 132,
+      "presentations": 44,
+      "q": 66,
+      "rows": 880
+    },
+    {
+      "computed_genus_zero": 306,
+      "computed_not_expected": 0,
+      "expected_bbl": 306,
+      "expected_not_computed": 0,
+      "intersection": 306,
+      "presentations": 77,
+      "q": 67,
+      "rows": 5082
+    },
+    {
+      "computed_genus_zero": 184,
+      "computed_not_expected": 0,
+      "expected_bbl": 184,
+      "expected_not_computed": 0,
+      "intersection": 184,
+      "presentations": 55,
+      "q": 68,
+      "rows": 1760
+    },
+    {
+      "computed_genus_zero": 190,
+      "computed_not_expected": 0,
+      "expected_bbl": 190,
+      "expected_not_computed": 0,
+      "intersection": 190,
+      "presentations": 48,
+      "q": 69,
+      "rows": 2112
+    },
+    {
+      "computed_genus_zero": 152,
+      "computed_not_expected": 0,
+      "expected_bbl": 152,
+      "expected_not_computed": 0,
+      "intersection": 152,
+      "presentations": 51,
+      "q": 70,
+      "rows": 1224
+    },
+    {
+      "computed_genus_zero": 310,
+      "computed_not_expected": 0,
+      "expected_bbl": 310,
+      "expected_not_computed": 0,
+      "intersection": 310,
+      "presentations": 78,
+      "q": 71,
+      "rows": 5460
+    },
+    {
+      "computed_genus_zero": 132,
+      "computed_not_expected": 0,
+      "expected_bbl": 132,
+      "expected_not_computed": 0,
+      "intersection": 132,
+      "presentations": 40,
+      "q": 72,
+      "rows": 960
+    },
+    {
+      "computed_genus_zero": 318,
+      "computed_not_expected": 0,
+      "expected_bbl": 318,
+      "expected_not_computed": 0,
+      "intersection": 318,
+      "presentations": 80,
+      "q": 73,
+      "rows": 5760
+    },
+    {
+      "computed_genus_zero": 240,
+      "computed_not_expected": 0,
+      "expected_bbl": 240,
+      "expected_not_computed": 0,
+      "intersection": 240,
+      "presentations": 79,
+      "q": 74,
+      "rows": 2844
+    },
+    {
+      "computed_genus_zero": 166,
+      "computed_not_expected": 0,
+      "expected_bbl": 166,
+      "expected_not_computed": 0,
+      "intersection": 166,
+      "presentations": 42,
+      "q": 75,
+      "rows": 1680
+    },
+    {
+      "computed_genus_zero": 212,
+      "computed_not_expected": 0,
+      "expected_bbl": 212,
+      "expected_not_computed": 0,
+      "intersection": 212,
+      "presentations": 63,
+      "q": 76,
+      "rows": 2268
+    },
+    {
+      "computed_genus_zero": 274,
+      "computed_not_expected": 0,
+      "expected_bbl": 274,
+      "expected_not_computed": 0,
+      "intersection": 274,
+      "presentations": 69,
+      "q": 77,
+      "rows": 4140
+    },
+    {
+      "computed_genus_zero": 156,
+      "computed_not_expected": 0,
+      "expected_bbl": 156,
+      "expected_not_computed": 0,
+      "intersection": 156,
+      "presentations": 52,
+      "q": 78,
+      "rows": 1248
+    },
+    {
+      "computed_genus_zero": 330,
+      "computed_not_expected": 0,
+      "expected_bbl": 330,
+      "expected_not_computed": 0,
+      "intersection": 330,
+      "presentations": 83,
+      "q": 79,
+      "rows": 6474
+    },
+    {
+      "computed_genus_zero": 180,
+      "computed_not_expected": 0,
+      "expected_bbl": 180,
+      "expected_not_computed": 0,
+      "intersection": 180,
+      "presentations": 54,
+      "q": 80,
+      "rows": 1728
+    },
+    {
+      "computed_genus_zero": 230,
+      "computed_not_expected": 0,
+      "expected_bbl": 230,
+      "expected_not_computed": 0,
+      "intersection": 230,
+      "presentations": 58,
+      "q": 81,
+      "rows": 3132
+    },
+    {
+      "computed_genus_zero": 268,
+      "computed_not_expected": 0,
+      "expected_bbl": 268,
+      "expected_not_computed": 0,
+      "intersection": 268,
+      "presentations": 88,
+      "q": 82,
+      "rows": 3520
+    },
+    {
+      "computed_genus_zero": 362,
+      "computed_not_expected": 0,
+      "expected_bbl": 362,
+      "expected_not_computed": 0,
+      "intersection": 362,
+      "presentations": 91,
+      "q": 83,
+      "rows": 7462
+    },
+    {
+      "computed_genus_zero": 128,
+      "computed_not_expected": 0,
+      "expected_bbl": 128,
+      "expected_not_computed": 0,
+      "intersection": 128,
+      "presentations": 39,
+      "q": 84,
+      "rows": 936
+    },
+    {
+      "computed_genus_zero": 286,
+      "computed_not_expected": 0,
+      "expected_bbl": 286,
+      "expected_not_computed": 0,
+      "intersection": 286,
+      "presentations": 72,
+      "q": 85,
+      "rows": 4608
+    },
+    {
+      "computed_genus_zero": 276,
+      "computed_not_expected": 0,
+      "expected_bbl": 276,
+      "expected_not_computed": 0,
+      "intersection": 276,
+      "presentations": 91,
+      "q": 86,
+      "rows": 3822
+    },
+    {
+      "computed_genus_zero": 246,
+      "computed_not_expected": 0,
+      "expected_bbl": 246,
+      "expected_not_computed": 0,
+      "intersection": 246,
+      "presentations": 62,
+      "q": 87,
+      "rows": 3472
+    },
+    {
+      "computed_genus_zero": 224,
+      "computed_not_expected": 0,
+      "expected_bbl": 224,
+      "expected_not_computed": 0,
+      "intersection": 224,
+      "presentations": 67,
+      "q": 88,
+      "rows": 2680
+    },
+    {
+      "computed_genus_zero": 378,
+      "computed_not_expected": 0,
+      "expected_bbl": 378,
+      "expected_not_computed": 0,
+      "intersection": 378,
+      "presentations": 95,
+      "q": 89,
+      "rows": 8360
+    },
+    {
+      "computed_genus_zero": 148,
+      "computed_not_expected": 0,
+      "expected_bbl": 148,
+      "expected_not_computed": 0,
+      "intersection": 148,
+      "presentations": 50,
+      "q": 90,
+      "rows": 1200
+    },
+    {
+      "computed_genus_zero": 314,
+      "computed_not_expected": 0,
+      "expected_bbl": 314,
+      "expected_not_computed": 0,
+      "intersection": 314,
+      "presentations": 79,
+      "q": 91,
+      "rows": 5688
+    },
+    {
+      "computed_genus_zero": 244,
+      "computed_not_expected": 0,
+      "expected_bbl": 244,
+      "expected_not_computed": 0,
+      "intersection": 244,
+      "presentations": 73,
+      "q": 92,
+      "rows": 3212
+    },
+    {
+      "computed_genus_zero": 262,
+      "computed_not_expected": 0,
+      "expected_bbl": 262,
+      "expected_not_computed": 0,
+      "intersection": 262,
+      "presentations": 66,
+      "q": 93,
+      "rows": 3960
+    },
+    {
+      "computed_genus_zero": 316,
+      "computed_not_expected": 0,
+      "expected_bbl": 316,
+      "expected_not_computed": 0,
+      "intersection": 316,
+      "presentations": 103,
+      "q": 94,
+      "rows": 4738
+    },
+    {
+      "computed_genus_zero": 314,
+      "computed_not_expected": 0,
+      "expected_bbl": 314,
+      "expected_not_computed": 0,
+      "intersection": 314,
+      "presentations": 79,
+      "q": 95,
+      "rows": 5688
+    },
+    {
+      "computed_genus_zero": 164,
+      "computed_not_expected": 0,
+      "expected_bbl": 164,
+      "expected_not_computed": 0,
+      "intersection": 164,
+      "presentations": 50,
+      "q": 96,
+      "rows": 1600
+    },
+    {
+      "computed_genus_zero": 414,
+      "computed_not_expected": 0,
+      "expected_bbl": 414,
+      "expected_not_computed": 0,
+      "intersection": 414,
+      "presentations": 104,
+      "q": 97,
+      "rows": 9984
+    },
+    {
+      "computed_genus_zero": 284,
+      "computed_not_expected": 0,
+      "expected_bbl": 284,
+      "expected_not_computed": 0,
+      "intersection": 284,
+      "presentations": 93,
+      "q": 98,
+      "rows": 3906
+    },
+    {
+      "computed_genus_zero": 254,
+      "computed_not_expected": 0,
+      "expected_bbl": 254,
+      "expected_not_computed": 0,
+      "intersection": 254,
+      "presentations": 64,
+      "q": 99,
+      "rows": 3840
+    },
+    {
+      "computed_genus_zero": 216,
+      "computed_not_expected": 0,
+      "expected_bbl": 216,
+      "expected_not_computed": 0,
+      "intersection": 216,
+      "presentations": 65,
+      "q": 100,
+      "rows": 2600
+    },
+    {
+      "computed_genus_zero": 430,
+      "computed_not_expected": 0,
+      "expected_bbl": 430,
+      "expected_not_computed": 0,
+      "intersection": 430,
+      "presentations": 108,
+      "q": 101,
+      "rows": 10800
+    },
+    {
+      "computed_genus_zero": 204,
+      "computed_not_expected": 0,
+      "expected_bbl": 204,
+      "expected_not_computed": 0,
+      "intersection": 204,
+      "presentations": 68,
+      "q": 102,
+      "rows": 2176
+    },
+    {
+      "computed_genus_zero": 442,
+      "computed_not_expected": 0,
+      "expected_bbl": 442,
+      "expected_not_computed": 0,
+      "intersection": 442,
+      "presentations": 111,
+      "q": 103,
+      "rows": 11322
+    },
+    {
+      "computed_genus_zero": 280,
+      "computed_not_expected": 0,
+      "expected_bbl": 280,
+      "expected_not_computed": 0,
+      "intersection": 280,
+      "presentations": 83,
+      "q": 104,
+      "rows": 3984
+    },
+    {
+      "computed_genus_zero": 206,
+      "computed_not_expected": 0,
+      "expected_bbl": 206,
+      "expected_not_computed": 0,
+      "intersection": 206,
+      "presentations": 52,
+      "q": 105,
+      "rows": 2496
+    },
+    {
+      "computed_genus_zero": 336,
+      "computed_not_expected": 0,
+      "expected_bbl": 336,
+      "expected_not_computed": 0,
+      "intersection": 336,
+      "presentations": 111,
+      "q": 106,
+      "rows": 5772
+    },
+    {
+      "computed_genus_zero": 450,
+      "computed_not_expected": 0,
+      "expected_bbl": 450,
+      "expected_not_computed": 0,
+      "intersection": 450,
+      "presentations": 113,
+      "q": 107,
+      "rows": 11978
+    },
+    {
+      "computed_genus_zero": 192,
+      "computed_not_expected": 0,
+      "expected_bbl": 192,
+      "expected_not_computed": 0,
+      "intersection": 192,
+      "presentations": 58,
+      "q": 108,
+      "rows": 2088
+    },
+    {
+      "computed_genus_zero": 466,
+      "computed_not_expected": 0,
+      "expected_bbl": 466,
+      "expected_not_computed": 0,
+      "intersection": 466,
+      "presentations": 117,
+      "q": 109,
+      "rows": 12636
+    },
+    {
+      "computed_genus_zero": 256,
+      "computed_not_expected": 0,
+      "expected_bbl": 256,
+      "expected_not_computed": 0,
+      "intersection": 256,
+      "presentations": 85,
+      "q": 110,
+      "rows": 3400
+    },
+    {
+      "computed_genus_zero": 310,
+      "computed_not_expected": 0,
+      "expected_bbl": 310,
+      "expected_not_computed": 0,
+      "intersection": 310,
+      "presentations": 78,
+      "q": 111,
+      "rows": 5616
+    },
+    {
+      "computed_genus_zero": 268,
+      "computed_not_expected": 0,
+      "expected_bbl": 268,
+      "expected_not_computed": 0,
+      "intersection": 268,
+      "presentations": 80,
+      "q": 112,
+      "rows": 3840
+    },
+    {
+      "computed_genus_zero": 486,
+      "computed_not_expected": 0,
+      "expected_bbl": 486,
+      "expected_not_computed": 0,
+      "intersection": 486,
+      "presentations": 122,
+      "q": 113,
+      "rows": 13664
+    },
+    {
+      "computed_genus_zero": 220,
+      "computed_not_expected": 0,
+      "expected_bbl": 220,
+      "expected_not_computed": 0,
+      "intersection": 220,
+      "presentations": 74,
+      "q": 114,
+      "rows": 2664
+    },
+    {
+      "computed_genus_zero": 386,
+      "computed_not_expected": 0,
+      "expected_bbl": 386,
+      "expected_not_computed": 0,
+      "intersection": 386,
+      "presentations": 97,
+      "q": 115,
+      "rows": 8536
+    },
+    {
+      "computed_genus_zero": 320,
+      "computed_not_expected": 0,
+      "expected_bbl": 320,
+      "expected_not_computed": 0,
+      "intersection": 320,
+      "presentations": 95,
+      "q": 116,
+      "rows": 5320
+    },
+    {
+      "computed_genus_zero": 302,
+      "computed_not_expected": 0,
+      "expected_bbl": 302,
+      "expected_not_computed": 0,
+      "intersection": 302,
+      "presentations": 76,
+      "q": 117,
+      "rows": 5472
+    },
+    {
+      "computed_genus_zero": 380,
+      "computed_not_expected": 0,
+      "expected_bbl": 380,
+      "expected_not_computed": 0,
+      "intersection": 380,
+      "presentations": 125,
+      "q": 118,
+      "rows": 7250
+    },
+    {
+      "computed_genus_zero": 402,
+      "computed_not_expected": 0,
+      "expected_bbl": 402,
+      "expected_not_computed": 0,
+      "intersection": 402,
+      "presentations": 101,
+      "q": 119,
+      "rows": 9696
+    },
+    {
+      "computed_genus_zero": 168,
+      "computed_not_expected": 0,
+      "expected_bbl": 168,
+      "expected_not_computed": 0,
+      "intersection": 168,
+      "presentations": 51,
+      "q": 120,
+      "rows": 1632
+    },
+    {
+      "computed_genus_zero": 466,
+      "computed_not_expected": 0,
+      "expected_bbl": 466,
+      "expected_not_computed": 0,
+      "intersection": 466,
+      "presentations": 117,
+      "q": 121,
+      "rows": 12870
+    },
+    {
+      "computed_genus_zero": 396,
+      "computed_not_expected": 0,
+      "expected_bbl": 396,
+      "expected_not_computed": 0,
+      "intersection": 396,
+      "presentations": 130,
+      "q": 122,
+      "rows": 7800
+    },
+    {
+      "computed_genus_zero": 350,
+      "computed_not_expected": 0,
+      "expected_bbl": 350,
+      "expected_not_computed": 0,
+      "intersection": 350,
+      "presentations": 88,
+      "q": 123,
+      "rows": 7040
+    },
+    {
+      "computed_genus_zero": 324,
+      "computed_not_expected": 0,
+      "expected_bbl": 324,
+      "expected_not_computed": 0,
+      "intersection": 324,
+      "presentations": 97,
+      "q": 124,
+      "rows": 5820
+    },
+    {
+      "computed_genus_zero": 426,
+      "computed_not_expected": 0,
+      "expected_bbl": 426,
+      "expected_not_computed": 0,
+      "intersection": 426,
+      "presentations": 107,
+      "q": 125,
+      "rows": 10700
+    },
+    {
+      "computed_genus_zero": 228,
+      "computed_not_expected": 0,
+      "expected_bbl": 228,
+      "expected_not_computed": 0,
+      "intersection": 228,
+      "presentations": 76,
+      "q": 126,
+      "rows": 2736
+    },
+    {
+      "computed_genus_zero": 550,
+      "computed_not_expected": 0,
+      "expected_bbl": 550,
+      "expected_not_computed": 0,
+      "intersection": 550,
+      "presentations": 138,
+      "q": 127,
+      "rows": 17388
+    },
+    {
+      "computed_genus_zero": 344,
+      "computed_not_expected": 0,
+      "expected_bbl": 344,
+      "expected_not_computed": 0,
+      "intersection": 344,
+      "presentations": 103,
+      "q": 128,
+      "rows": 6592
+    },
+    {
+      "computed_genus_zero": 354,
+      "computed_not_expected": 0,
+      "expected_bbl": 354,
+      "expected_not_computed": 0,
+      "intersection": 354,
+      "presentations": 89,
+      "q": 129,
+      "rows": 7476
+    },
+    {
+      "computed_genus_zero": 312,
+      "computed_not_expected": 0,
+      "expected_bbl": 312,
+      "expected_not_computed": 0,
+      "intersection": 312,
+      "presentations": 103,
+      "q": 130,
+      "rows": 4944
+    },
+    {
+      "computed_genus_zero": 554,
+      "computed_not_expected": 0,
+      "expected_bbl": 554,
+      "expected_not_computed": 0,
+      "intersection": 554,
+      "presentations": 139,
+      "q": 131,
+      "rows": 18070
+    },
+    {
+      "computed_genus_zero": 212,
+      "computed_not_expected": 0,
+      "expected_bbl": 212,
+      "expected_not_computed": 0,
+      "intersection": 212,
+      "presentations": 64,
+      "q": 132,
+      "rows": 2560
+    },
+    {
+      "computed_genus_zero": 458,
+      "computed_not_expected": 0,
+      "expected_bbl": 458,
+      "expected_not_computed": 0,
+      "intersection": 458,
+      "presentations": 115,
+      "q": 133,
+      "rows": 12420
+    },
+    {
+      "computed_genus_zero": 428,
+      "computed_not_expected": 0,
+      "expected_bbl": 428,
+      "expected_not_computed": 0,
+      "intersection": 428,
+      "presentations": 141,
+      "q": 134,
+      "rows": 9306
+    },
+    {
+      "computed_genus_zero": 294,
+      "computed_not_expected": 0,
+      "expected_bbl": 294,
+      "expected_not_computed": 0,
+      "intersection": 294,
+      "presentations": 74,
+      "q": 135,
+      "rows": 5328
+    },
+    {
+      "computed_genus_zero": 360,
+      "computed_not_expected": 0,
+      "expected_bbl": 360,
+      "expected_not_computed": 0,
+      "intersection": 360,
+      "presentations": 107,
+      "q": 136,
+      "rows": 6848
+    },
+    {
+      "computed_genus_zero": 594,
+      "computed_not_expected": 0,
+      "expected_bbl": 594,
+      "expected_not_computed": 0,
+      "intersection": 594,
+      "presentations": 149,
+      "q": 137,
+      "rows": 20264
+    },
+    {
+      "computed_genus_zero": 276,
+      "computed_not_expected": 0,
+      "expected_bbl": 276,
+      "expected_not_computed": 0,
+      "intersection": 276,
+      "presentations": 92,
+      "q": 138,
+      "rows": 4048
+    },
+    {
+      "computed_genus_zero": 586,
+      "computed_not_expected": 0,
+      "expected_bbl": 586,
+      "expected_not_computed": 0,
+      "intersection": 586,
+      "presentations": 147,
+      "q": 139,
+      "rows": 20286
+    },
+    {
+      "computed_genus_zero": 256,
+      "computed_not_expected": 0,
+      "expected_bbl": 256,
+      "expected_not_computed": 0,
+      "intersection": 256,
+      "presentations": 77,
+      "q": 140,
+      "rows": 3696
+    },
+    {
+      "computed_genus_zero": 382,
+      "computed_not_expected": 0,
+      "expected_bbl": 382,
+      "expected_not_computed": 0,
+      "intersection": 382,
+      "presentations": 96,
+      "q": 141,
+      "rows": 8832
+    },
+    {
+      "computed_genus_zero": 452,
+      "computed_not_expected": 0,
+      "expected_bbl": 452,
+      "expected_not_computed": 0,
+      "intersection": 452,
+      "presentations": 149,
+      "q": 142,
+      "rows": 10430
+    },
+    {
+      "computed_genus_zero": 518,
+      "computed_not_expected": 0,
+      "expected_bbl": 518,
+      "expected_not_computed": 0,
+      "intersection": 518,
+      "presentations": 130,
+      "q": 143,
+      "rows": 15600
+    },
+    {
+      "computed_genus_zero": 264,
+      "computed_not_expected": 0,
+      "expected_bbl": 264,
+      "expected_not_computed": 0,
+      "intersection": 264,
+      "presentations": 79,
+      "q": 144,
+      "rows": 3792
+    },
+    {
+      "computed_genus_zero": 466,
+      "computed_not_expected": 0,
+      "expected_bbl": 466,
+      "expected_not_computed": 0,
+      "intersection": 466,
+      "presentations": 117,
+      "q": 145,
+      "rows": 13104
+    },
+    {
+      "computed_genus_zero": 456,
+      "computed_not_expected": 0,
+      "expected_bbl": 456,
+      "expected_not_computed": 0,
+      "intersection": 456,
+      "presentations": 151,
+      "q": 146,
+      "rows": 10872
+    },
+    {
+      "computed_genus_zero": 350,
+      "computed_not_expected": 0,
+      "expected_bbl": 350,
+      "expected_not_computed": 0,
+      "intersection": 350,
+      "presentations": 88,
+      "q": 147,
+      "rows": 7392
+    },
+    {
+      "computed_genus_zero": 400,
+      "computed_not_expected": 0,
+      "expected_bbl": 400,
+      "expected_not_computed": 0,
+      "intersection": 400,
+      "presentations": 119,
+      "q": 148,
+      "rows": 8568
+    },
+    {
+      "computed_genus_zero": 642,
+      "computed_not_expected": 0,
+      "expected_bbl": 642,
+      "expected_not_computed": 0,
+      "intersection": 642,
+      "presentations": 161,
+      "q": 149,
+      "rows": 23828
+    },
+    {
+      "computed_genus_zero": 252,
+      "computed_not_expected": 0,
+      "expected_bbl": 252,
+      "expected_not_computed": 0,
+      "intersection": 252,
+      "presentations": 84,
+      "q": 150,
+      "rows": 3360
+    },
+    {
+      "computed_genus_zero": 634,
+      "computed_not_expected": 0,
+      "expected_bbl": 634,
+      "expected_not_computed": 0,
+      "intersection": 634,
+      "presentations": 159,
+      "q": 151,
+      "rows": 23850
+    },
+    {
+      "computed_genus_zero": 384,
+      "computed_not_expected": 0,
+      "expected_bbl": 384,
+      "expected_not_computed": 0,
+      "intersection": 384,
+      "presentations": 115,
+      "q": 152,
+      "rows": 8280
+    },
+    {
+      "computed_genus_zero": 406,
+      "computed_not_expected": 0,
+      "expected_bbl": 406,
+      "expected_not_computed": 0,
+      "intersection": 406,
+      "presentations": 102,
+      "q": 153,
+      "rows": 9792
+    },
+    {
+      "computed_genus_zero": 384,
+      "computed_not_expected": 0,
+      "expected_bbl": 384,
+      "expected_not_computed": 0,
+      "intersection": 384,
+      "presentations": 127,
+      "q": 154,
+      "rows": 7620
+    },
+    {
+      "computed_genus_zero": 506,
+      "computed_not_expected": 0,
+      "expected_bbl": 506,
+      "expected_not_computed": 0,
+      "intersection": 506,
+      "presentations": 127,
+      "q": 155,
+      "rows": 15240
+    },
+    {
+      "computed_genus_zero": 244,
+      "computed_not_expected": 0,
+      "expected_bbl": 244,
+      "expected_not_computed": 0,
+      "intersection": 244,
+      "presentations": 74,
+      "q": 156,
+      "rows": 3552
+    },
+    {
+      "computed_genus_zero": 674,
+      "computed_not_expected": 0,
+      "expected_bbl": 674,
+      "expected_not_computed": 0,
+      "intersection": 674,
+      "presentations": 169,
+      "q": 157,
+      "rows": 26364
+    },
+    {
+      "computed_genus_zero": 508,
+      "computed_not_expected": 0,
+      "expected_bbl": 508,
+      "expected_not_computed": 0,
+      "intersection": 508,
+      "presentations": 167,
+      "q": 158,
+      "rows": 13026
+    },
+    {
+      "computed_genus_zero": 430,
+      "computed_not_expected": 0,
+      "expected_bbl": 430,
+      "expected_not_computed": 0,
+      "intersection": 430,
+      "presentations": 108,
+      "q": 159,
+      "rows": 11232
+    },
+    {
+      "computed_genus_zero": 344,
+      "computed_not_expected": 0,
+      "expected_bbl": 344,
+      "expected_not_computed": 0,
+      "intersection": 344,
+      "presentations": 103,
+      "q": 160,
+      "rows": 6592
+    },
+    {
+      "computed_genus_zero": 558,
+      "computed_not_expected": 0,
+      "expected_bbl": 558,
+      "expected_not_computed": 0,
+      "intersection": 558,
+      "presentations": 140,
+      "q": 161,
+      "rows": 18480
+    },
+    {
+      "computed_genus_zero": 352,
+      "computed_not_expected": 0,
+      "expected_bbl": 352,
+      "expected_not_computed": 0,
+      "intersection": 352,
+      "presentations": 116,
+      "q": 162,
+      "rows": 6264
+    },
+    {
+      "computed_genus_zero": 686,
+      "computed_not_expected": 0,
+      "expected_bbl": 686,
+      "expected_not_computed": 0,
+      "intersection": 686,
+      "presentations": 172,
+      "q": 163,
+      "rows": 27864
+    },
+    {
+      "computed_genus_zero": 432,
+      "computed_not_expected": 0,
+      "expected_bbl": 432,
+      "expected_not_computed": 0,
+      "intersection": 432,
+      "presentations": 129,
+      "q": 164,
+      "rows": 10320
+    },
+    {
+      "computed_genus_zero": 334,
+      "computed_not_expected": 0,
+      "expected_bbl": 334,
+      "expected_not_computed": 0,
+      "intersection": 334,
+      "presentations": 84,
+      "q": 165,
+      "rows": 6720
+    },
+    {
+      "computed_genus_zero": 524,
+      "computed_not_expected": 0,
+      "expected_bbl": 524,
+      "expected_not_computed": 0,
+      "intersection": 524,
+      "presentations": 173,
+      "q": 166,
+      "rows": 14186
+    },
+    {
+      "computed_genus_zero": 698,
+      "computed_not_expected": 0,
+      "expected_bbl": 698,
+      "expected_not_computed": 0,
+      "intersection": 698,
+      "presentations": 175,
+      "q": 167,
+      "rows": 29050
+    },
+    {
+      "computed_genus_zero": 248,
+      "computed_not_expected": 0,
+      "expected_bbl": 248,
+      "expected_not_computed": 0,
+      "intersection": 248,
+      "presentations": 75,
+      "q": 168,
+      "rows": 3600
+    },
+    {
+      "computed_genus_zero": 650,
+      "computed_not_expected": 0,
+      "expected_bbl": 650,
+      "expected_not_computed": 0,
+      "intersection": 650,
+      "presentations": 163,
+      "q": 169,
+      "rows": 25428
+    },
+    {
+      "computed_genus_zero": 412,
+      "computed_not_expected": 0,
+      "expected_bbl": 412,
+      "expected_not_computed": 0,
+      "intersection": 412,
+      "presentations": 136,
+      "q": 170,
+      "rows": 8704
+    },
+    {
+      "computed_genus_zero": 462,
+      "computed_not_expected": 0,
+      "expected_bbl": 462,
+      "expected_not_computed": 0,
+      "intersection": 462,
+      "presentations": 116,
+      "q": 171,
+      "rows": 12528
+    },
+    {
+      "computed_genus_zero": 460,
+      "computed_not_expected": 0,
+      "expected_bbl": 460,
+      "expected_not_computed": 0,
+      "intersection": 460,
+      "presentations": 137,
+      "q": 172,
+      "rows": 11508
+    },
+    {
+      "computed_genus_zero": 722,
+      "computed_not_expected": 0,
+      "expected_bbl": 722,
+      "expected_not_computed": 0,
+      "intersection": 722,
+      "presentations": 181,
+      "q": 173,
+      "rows": 31132
+    },
+    {
+      "computed_genus_zero": 348,
+      "computed_not_expected": 0,
+      "expected_bbl": 348,
+      "expected_not_computed": 0,
+      "intersection": 348,
+      "presentations": 116,
+      "q": 174,
+      "rows": 6496
+    },
+    {
+      "computed_genus_zero": 514,
+      "computed_not_expected": 0,
+      "expected_bbl": 514,
+      "expected_not_computed": 0,
+      "intersection": 514,
+      "presentations": 129,
+      "q": 175,
+      "rows": 15480
+    },
+    {
+      "computed_genus_zero": 440,
+      "computed_not_expected": 0,
+      "expected_bbl": 440,
+      "expected_not_computed": 0,
+      "intersection": 440,
+      "presentations": 131,
+      "q": 176,
+      "rows": 10480
+    },
+    {
+      "computed_genus_zero": 478,
+      "computed_not_expected": 0,
+      "expected_bbl": 478,
+      "expected_not_computed": 0,
+      "intersection": 478,
+      "presentations": 120,
+      "q": 177,
+      "rows": 13920
+    },
+    {
+      "computed_genus_zero": 560,
+      "computed_not_expected": 0,
+      "expected_bbl": 560,
+      "expected_not_computed": 0,
+      "intersection": 560,
+      "presentations": 185,
+      "q": 178,
+      "rows": 16280
+    },
+    {
+      "computed_genus_zero": 754,
+      "computed_not_expected": 0,
+      "expected_bbl": 754,
+      "expected_not_computed": 0,
+      "intersection": 754,
+      "presentations": 189,
+      "q": 179,
+      "rows": 33642
+    },
+    {
+      "computed_genus_zero": 240,
+      "computed_not_expected": 0,
+      "expected_bbl": 240,
+      "expected_not_computed": 0,
+      "intersection": 240,
+      "presentations": 73,
+      "q": 180,
+      "rows": 3504
+    },
+    {
+      "computed_genus_zero": 766,
+      "computed_not_expected": 0,
+      "expected_bbl": 766,
+      "expected_not_computed": 0,
+      "intersection": 766,
+      "presentations": 192,
+      "q": 181,
+      "rows": 34560
+    },
+    {
+      "computed_genus_zero": 456,
+      "computed_not_expected": 0,
+      "expected_bbl": 456,
+      "expected_not_computed": 0,
+      "intersection": 456,
+      "presentations": 151,
+      "q": 182,
+      "rows": 10872
+    },
+    {
+      "computed_genus_zero": 502,
+      "computed_not_expected": 0,
+      "expected_bbl": 502,
+      "expected_not_computed": 0,
+      "intersection": 502,
+      "presentations": 126,
+      "q": 183,
+      "rows": 15120
+    },
+    {
+      "computed_genus_zero": 464,
+      "computed_not_expected": 0,
+      "expected_bbl": 464,
+      "expected_not_computed": 0,
+      "intersection": 464,
+      "presentations": 139,
+      "q": 184,
+      "rows": 12232
+    },
+    {
+      "computed_genus_zero": 610,
+      "computed_not_expected": 0,
+      "expected_bbl": 610,
+      "expected_not_computed": 0,
+      "intersection": 610,
+      "presentations": 153,
+      "q": 185,
+      "rows": 22032
+    },
+    {
+      "computed_genus_zero": 380,
+      "computed_not_expected": 0,
+      "expected_bbl": 380,
+      "expected_not_computed": 0,
+      "intersection": 380,
+      "presentations": 126,
+      "q": 186,
+      "rows": 7560
+    },
+    {
+      "computed_genus_zero": 674,
+      "computed_not_expected": 0,
+      "expected_bbl": 674,
+      "expected_not_computed": 0,
+      "intersection": 674,
+      "presentations": 169,
+      "q": 187,
+      "rows": 27040
+    },
+    {
+      "computed_genus_zero": 516,
+      "computed_not_expected": 0,
+      "expected_bbl": 516,
+      "expected_not_computed": 0,
+      "intersection": 516,
+      "presentations": 153,
+      "q": 188,
+      "rows": 14076
+    },
+    {
+      "computed_genus_zero": 454,
+      "computed_not_expected": 0,
+      "expected_bbl": 454,
+      "expected_not_computed": 0,
+      "intersection": 454,
+      "presentations": 114,
+      "q": 189,
+      "rows": 12312
+    },
+    {
+      "computed_genus_zero": 456,
+      "computed_not_expected": 0,
+      "expected_bbl": 456,
+      "expected_not_computed": 0,
+      "intersection": 456,
+      "presentations": 151,
+      "q": 190,
+      "rows": 10872
+    },
+    {
+      "computed_genus_zero": 778,
+      "computed_not_expected": 0,
+      "expected_bbl": 778,
+      "expected_not_computed": 0,
+      "intersection": 778,
+      "presentations": 195,
+      "q": 191,
+      "rows": 37050
+    },
+    {
+      "computed_genus_zero": 340,
+      "computed_not_expected": 0,
+      "expected_bbl": 340,
+      "expected_not_computed": 0,
+      "intersection": 340,
+      "presentations": 102,
+      "q": 192,
+      "rows": 6528
+    },
+    {
+      "computed_genus_zero": 810,
+      "computed_not_expected": 0,
+      "expected_bbl": 810,
+      "expected_not_computed": 0,
+      "intersection": 810,
+      "presentations": 203,
+      "q": 193,
+      "rows": 38976
+    },
+    {
+      "computed_genus_zero": 608,
+      "computed_not_expected": 0,
+      "expected_bbl": 608,
+      "expected_not_computed": 0,
+      "intersection": 608,
+      "presentations": 201,
+      "q": 194,
+      "rows": 19296
+    },
+    {
+      "computed_genus_zero": 402,
+      "computed_not_expected": 0,
+      "expected_bbl": 402,
+      "expected_not_computed": 0,
+      "intersection": 402,
+      "presentations": 101,
+      "q": 195,
+      "rows": 9696
+    },
+    {
+      "computed_genus_zero": 452,
+      "computed_not_expected": 0,
+      "expected_bbl": 452,
+      "expected_not_computed": 0,
+      "intersection": 452,
+      "presentations": 135,
+      "q": 196,
+      "rows": 11340
+    },
+    {
+      "computed_genus_zero": 822,
+      "computed_not_expected": 0,
+      "expected_bbl": 822,
+      "expected_not_computed": 0,
+      "intersection": 822,
+      "presentations": 206,
+      "q": 197,
+      "rows": 40376
+    },
+    {
+      "computed_genus_zero": 364,
+      "computed_not_expected": 0,
+      "expected_bbl": 364,
+      "expected_not_computed": 0,
+      "intersection": 364,
+      "presentations": 122,
+      "q": 198,
+      "rows": 7320
+    },
+    {
+      "computed_genus_zero": 838,
+      "computed_not_expected": 0,
+      "expected_bbl": 838,
+      "expected_not_computed": 0,
+      "intersection": 838,
+      "presentations": 210,
+      "q": 199,
+      "rows": 41580
+    },
+    {
+      "computed_genus_zero": 424,
+      "computed_not_expected": 0,
+      "expected_bbl": 424,
+      "expected_not_computed": 0,
+      "intersection": 424,
+      "presentations": 127,
+      "q": 200,
+      "rows": 10160
+    },
+    {
+      "computed_genus_zero": 546,
+      "computed_not_expected": 0,
+      "expected_bbl": 546,
+      "expected_not_computed": 0,
+      "intersection": 546,
+      "presentations": 137,
+      "q": 201,
+      "rows": 18084
+    },
+    {
+      "computed_genus_zero": 648,
+      "computed_not_expected": 0,
+      "expected_bbl": 648,
+      "expected_not_computed": 0,
+      "intersection": 648,
+      "presentations": 213,
+      "q": 202,
+      "rows": 21300
+    },
+    {
+      "computed_genus_zero": 722,
+      "computed_not_expected": 0,
+      "expected_bbl": 722,
+      "expected_not_computed": 0,
+      "intersection": 722,
+      "presentations": 181,
+      "q": 203,
+      "rows": 30408
+    },
+    {
+      "computed_genus_zero": 340,
+      "computed_not_expected": 0,
+      "expected_bbl": 340,
+      "expected_not_computed": 0,
+      "intersection": 340,
+      "presentations": 102,
+      "q": 204,
+      "rows": 6528
+    },
+    {
+      "computed_genus_zero": 658,
+      "computed_not_expected": 0,
+      "expected_bbl": 658,
+      "expected_not_computed": 0,
+      "intersection": 658,
+      "presentations": 165,
+      "q": 205,
+      "rows": 26400
+    },
+    {
+      "computed_genus_zero": 644,
+      "computed_not_expected": 0,
+      "expected_bbl": 644,
+      "expected_not_computed": 0,
+      "intersection": 644,
+      "presentations": 213,
+      "q": 206,
+      "rows": 21726
+    },
+    {
+      "computed_genus_zero": 550,
+      "computed_not_expected": 0,
+      "expected_bbl": 550,
+      "expected_not_computed": 0,
+      "intersection": 550,
+      "presentations": 138,
+      "q": 207,
+      "rows": 18216
+    },
+    {
+      "computed_genus_zero": 512,
+      "computed_not_expected": 0,
+      "expected_bbl": 512,
+      "expected_not_computed": 0,
+      "intersection": 512,
+      "presentations": 153,
+      "q": 208,
+      "rows": 14688
+    },
+    {
+      "computed_genus_zero": 754,
+      "computed_not_expected": 0,
+      "expected_bbl": 754,
+      "expected_not_computed": 0,
+      "intersection": 754,
+      "presentations": 189,
+      "q": 209,
+      "rows": 34020
+    },
+    {
+      "computed_genus_zero": 292,
+      "computed_not_expected": 0,
+      "expected_bbl": 292,
+      "expected_not_computed": 0,
+      "intersection": 292,
+      "presentations": 98,
+      "q": 210,
+      "rows": 4704
+    },
+    {
+      "computed_genus_zero": 882,
+      "computed_not_expected": 0,
+      "expected_bbl": 882,
+      "expected_not_computed": 0,
+      "intersection": 882,
+      "presentations": 221,
+      "q": 211,
+      "rows": 46410
+    },
+    {
+      "computed_genus_zero": 552,
+      "computed_not_expected": 0,
+      "expected_bbl": 552,
+      "expected_not_computed": 0,
+      "intersection": 552,
+      "presentations": 165,
+      "q": 212,
+      "rows": 17160
+    },
+    {
+      "computed_genus_zero": 590,
+      "computed_not_expected": 0,
+      "expected_bbl": 590,
+      "expected_not_computed": 0,
+      "intersection": 590,
+      "presentations": 148,
+      "q": 213,
+      "rows": 20720
+    },
+    {
+      "computed_genus_zero": 676,
+      "computed_not_expected": 0,
+      "expected_bbl": 676,
+      "expected_not_computed": 0,
+      "intersection": 676,
+      "presentations": 223,
+      "q": 214,
+      "rows": 23638
+    },
+    {
+      "computed_genus_zero": 706,
+      "computed_not_expected": 0,
+      "expected_bbl": 706,
+      "expected_not_computed": 0,
+      "intersection": 706,
+      "presentations": 177,
+      "q": 215,
+      "rows": 29736
+    },
+    {
+      "computed_genus_zero": 372,
+      "computed_not_expected": 0,
+      "expected_bbl": 372,
+      "expected_not_computed": 0,
+      "intersection": 372,
+      "presentations": 112,
+      "q": 216,
+      "rows": 8064
+    },
+    {
+      "computed_genus_zero": 754,
+      "computed_not_expected": 0,
+      "expected_bbl": 754,
+      "expected_not_computed": 0,
+      "intersection": 754,
+      "presentations": 189,
+      "q": 217,
+      "rows": 34020
+    },
+    {
+      "computed_genus_zero": 688,
+      "computed_not_expected": 0,
+      "expected_bbl": 688,
+      "expected_not_computed": 0,
+      "intersection": 688,
+      "presentations": 227,
+      "q": 218,
+      "rows": 24516
+    },
+    {
+      "computed_genus_zero": 598,
+      "computed_not_expected": 0,
+      "expected_bbl": 598,
+      "expected_not_computed": 0,
+      "intersection": 598,
+      "presentations": 150,
+      "q": 219,
+      "rows": 21600
+    },
+    {
+      "computed_genus_zero": 436,
+      "computed_not_expected": 0,
+      "expected_bbl": 436,
+      "expected_not_computed": 0,
+      "intersection": 436,
+      "presentations": 130,
+      "q": 220,
+      "rows": 10400
+    },
+    {
+      "computed_genus_zero": 814,
+      "computed_not_expected": 0,
+      "expected_bbl": 814,
+      "expected_not_computed": 0,
+      "intersection": 814,
+      "presentations": 204,
+      "q": 221,
+      "rows": 39168
+    },
+    {
+      "computed_genus_zero": 444,
+      "computed_not_expected": 0,
+      "expected_bbl": 444,
+      "expected_not_computed": 0,
+      "intersection": 444,
+      "presentations": 148,
+      "q": 222,
+      "rows": 10656
+    },
+    {
+      "computed_genus_zero": 914,
+      "computed_not_expected": 0,
+      "expected_bbl": 914,
+      "expected_not_computed": 0,
+      "intersection": 914,
+      "presentations": 229,
+      "q": 223,
+      "rows": 50838
+    },
+    {
+      "computed_genus_zero": 508,
+      "computed_not_expected": 0,
+      "expected_bbl": 508,
+      "expected_not_computed": 0,
+      "intersection": 508,
+      "presentations": 152,
+      "q": 224,
+      "rows": 14592
+    },
+    {
+      "computed_genus_zero": 494,
+      "computed_not_expected": 0,
+      "expected_bbl": 494,
+      "expected_not_computed": 0,
+      "intersection": 494,
+      "presentations": 124,
+      "q": 225,
+      "rows": 14880
+    },
+    {
+      "computed_genus_zero": 708,
+      "computed_not_expected": 0,
+      "expected_bbl": 708,
+      "expected_not_computed": 0,
+      "intersection": 708,
+      "presentations": 234,
+      "q": 226,
+      "rows": 26208
+    },
+    {
+      "computed_genus_zero": 946,
+      "computed_not_expected": 0,
+      "expected_bbl": 946,
+      "expected_not_computed": 0,
+      "intersection": 946,
+      "presentations": 237,
+      "q": 227,
+      "rows": 53562
+    },
+    {
+      "computed_genus_zero": 380,
+      "computed_not_expected": 0,
+      "expected_bbl": 380,
+      "expected_not_computed": 0,
+      "intersection": 380,
+      "presentations": 114,
+      "q": 228,
+      "rows": 8208
+    },
+    {
+      "computed_genus_zero": 954,
+      "computed_not_expected": 0,
+      "expected_bbl": 954,
+      "expected_not_computed": 0,
+      "intersection": 954,
+      "presentations": 239,
+      "q": 229,
+      "rows": 54492
+    },
+    {
+      "computed_genus_zero": 568,
+      "computed_not_expected": 0,
+      "expected_bbl": 568,
+      "expected_not_computed": 0,
+      "intersection": 568,
+      "presentations": 187,
+      "q": 230,
+      "rows": 16456
+    },
+    {
+      "computed_genus_zero": 494,
+      "computed_not_expected": 0,
+      "expected_bbl": 494,
+      "expected_not_computed": 0,
+      "intersection": 494,
+      "presentations": 124,
+      "q": 231,
+      "rows": 14880
+    },
+    {
+      "computed_genus_zero": 600,
+      "computed_not_expected": 0,
+      "expected_bbl": 600,
+      "expected_not_computed": 0,
+      "intersection": 600,
+      "presentations": 179,
+      "q": 232,
+      "rows": 20048
+    },
+    {
+      "computed_genus_zero": 970,
+      "computed_not_expected": 0,
+      "expected_bbl": 970,
+      "expected_not_computed": 0,
+      "intersection": 970,
+      "presentations": 243,
+      "q": 233,
+      "rows": 56376
+    },
+    {
+      "computed_genus_zero": 444,
+      "computed_not_expected": 0,
+      "expected_bbl": 444,
+      "expected_not_computed": 0,
+      "intersection": 444,
+      "presentations": 148,
+      "q": 234,
+      "rows": 10656
+    },
+    {
+      "computed_genus_zero": 770,
+      "computed_not_expected": 0,
+      "expected_bbl": 770,
+      "expected_not_computed": 0,
+      "intersection": 770,
+      "presentations": 193,
+      "q": 235,
+      "rows": 35512
+    },
+    {
+      "computed_genus_zero": 604,
+      "computed_not_expected": 0,
+      "expected_bbl": 604,
+      "expected_not_computed": 0,
+      "intersection": 604,
+      "presentations": 181,
+      "q": 236,
+      "rows": 20996
+    },
+    {
+      "computed_genus_zero": 662,
+      "computed_not_expected": 0,
+      "expected_bbl": 662,
+      "expected_not_computed": 0,
+      "intersection": 662,
+      "presentations": 166,
+      "q": 237,
+      "rows": 25896
+    },
+    {
+      "computed_genus_zero": 608,
+      "computed_not_expected": 0,
+      "expected_bbl": 608,
+      "expected_not_computed": 0,
+      "intersection": 608,
+      "presentations": 201,
+      "q": 238,
+      "rows": 19296
+    },
+    {
+      "computed_genus_zero": 986,
+      "computed_not_expected": 0,
+      "expected_bbl": 986,
+      "expected_not_computed": 0,
+      "intersection": 986,
+      "presentations": 247,
+      "q": 239,
+      "rows": 58786
+    },
+    {
+      "computed_genus_zero": 324,
+      "computed_not_expected": 0,
+      "expected_bbl": 324,
+      "expected_not_computed": 0,
+      "intersection": 324,
+      "presentations": 98,
+      "q": 240,
+      "rows": 6272
+    },
+    {
+      "computed_genus_zero": 1006,
+      "computed_not_expected": 0,
+      "expected_bbl": 1006,
+      "expected_not_computed": 0,
+      "intersection": 1006,
+      "presentations": 252,
+      "q": 241,
+      "rows": 60480
+    },
+    {
+      "computed_genus_zero": 700,
+      "computed_not_expected": 0,
+      "expected_bbl": 700,
+      "expected_not_computed": 0,
+      "intersection": 700,
+      "presentations": 231,
+      "q": 242,
+      "rows": 25410
+    },
+    {
+      "computed_genus_zero": 666,
+      "computed_not_expected": 0,
+      "expected_bbl": 666,
+      "expected_not_computed": 0,
+      "intersection": 666,
+      "presentations": 167,
+      "q": 243,
+      "rows": 27054
+    },
+    {
+      "computed_genus_zero": 632,
+      "computed_not_expected": 0,
+      "expected_bbl": 632,
+      "expected_not_computed": 0,
+      "intersection": 632,
+      "presentations": 189,
+      "q": 244,
+      "rows": 22680
+    },
+    {
+      "computed_genus_zero": 690,
+      "computed_not_expected": 0,
+      "expected_bbl": 690,
+      "expected_not_computed": 0,
+      "intersection": 690,
+      "presentations": 173,
+      "q": 245,
+      "rows": 29064
+    },
+    {
+      "computed_genus_zero": 508,
+      "computed_not_expected": 0,
+      "expected_bbl": 508,
+      "expected_not_computed": 0,
+      "intersection": 508,
+      "presentations": 168,
+      "q": 246,
+      "rows": 13440
+    },
+    {
+      "computed_genus_zero": 922,
+      "computed_not_expected": 0,
+      "expected_bbl": 922,
+      "expected_not_computed": 0,
+      "intersection": 922,
+      "presentations": 231,
+      "q": 247,
+      "rows": 49896
+    },
+    {
+      "computed_genus_zero": 656,
+      "computed_not_expected": 0,
+      "expected_bbl": 656,
+      "expected_not_computed": 0,
+      "intersection": 656,
+      "presentations": 195,
+      "q": 248,
+      "rows": 23400
+    },
+    {
+      "computed_genus_zero": 678,
+      "computed_not_expected": 0,
+      "expected_bbl": 678,
+      "expected_not_computed": 0,
+      "intersection": 678,
+      "presentations": 170,
+      "q": 249,
+      "rows": 27880
+    },
+    {
+      "computed_genus_zero": 608,
+      "computed_not_expected": 0,
+      "expected_bbl": 608,
+      "expected_not_computed": 0,
+      "intersection": 608,
+      "presentations": 203,
+      "q": 250,
+      "rows": 20300
+    },
+    {
+      "computed_genus_zero": 1034,
+      "computed_not_expected": 0,
+      "expected_bbl": 1034,
+      "expected_not_computed": 0,
+      "intersection": 1034,
+      "presentations": 259,
+      "q": 251,
+      "rows": 64750
+    },
+    {
+      "computed_genus_zero": 372,
+      "computed_not_expected": 0,
+      "expected_bbl": 372,
+      "expected_not_computed": 0,
+      "intersection": 372,
+      "presentations": 112,
+      "q": 252,
+      "rows": 8064
+    },
+    {
+      "computed_genus_zero": 922,
+      "computed_not_expected": 0,
+      "expected_bbl": 922,
+      "expected_not_computed": 0,
+      "intersection": 922,
+      "presentations": 231,
+      "q": 253,
+      "rows": 50820
+    },
+    {
+      "computed_genus_zero": 796,
+      "computed_not_expected": 0,
+      "expected_bbl": 796,
+      "expected_not_computed": 0,
+      "intersection": 796,
+      "presentations": 263,
+      "q": 254,
+      "rows": 33138
+    },
+    {
+      "computed_genus_zero": 522,
+      "computed_not_expected": 0,
+      "expected_bbl": 522,
+      "expected_not_computed": 0,
+      "intersection": 522,
+      "presentations": 131,
+      "q": 255,
+      "rows": 16768
+    },
+    {
+      "computed_genus_zero": 688,
+      "computed_not_expected": 0,
+      "expected_bbl": 688,
+      "expected_not_computed": 0,
+      "intersection": 688,
+      "presentations": 205,
+      "q": 256,
+      "rows": 26240
+    },
+    {
+      "computed_genus_zero": 1062,
+      "computed_not_expected": 0,
+      "expected_bbl": 1062,
+      "expected_not_computed": 0,
+      "intersection": 1062,
+      "presentations": 266,
+      "q": 257,
+      "rows": 68096
+    },
+    {
+      "computed_genus_zero": 524,
+      "computed_not_expected": 0,
+      "expected_bbl": 524,
+      "expected_not_computed": 0,
+      "intersection": 524,
+      "presentations": 174,
+      "q": 258,
+      "rows": 14616
+    },
+    {
+      "computed_genus_zero": 898,
+      "computed_not_expected": 0,
+      "expected_bbl": 898,
+      "expected_not_computed": 0,
+      "intersection": 898,
+      "presentations": 225,
+      "q": 259,
+      "rows": 48600
+    },
+    {
+      "computed_genus_zero": 504,
+      "computed_not_expected": 0,
+      "expected_bbl": 504,
+      "expected_not_computed": 0,
+      "intersection": 504,
+      "presentations": 151,
+      "q": 260,
+      "rows": 14496
+    },
+    {
+      "computed_genus_zero": 686,
+      "computed_not_expected": 0,
+      "expected_bbl": 686,
+      "expected_not_computed": 0,
+      "intersection": 686,
+      "presentations": 172,
+      "q": 261,
+      "rows": 28896
+    },
+    {
+      "computed_genus_zero": 828,
+      "computed_not_expected": 0,
+      "expected_bbl": 828,
+      "expected_not_computed": 0,
+      "intersection": 828,
+      "presentations": 273,
+      "q": 262,
+      "rows": 35490
+    },
+    {
+      "computed_genus_zero": 1106,
+      "computed_not_expected": 0,
+      "expected_bbl": 1106,
+      "expected_not_computed": 0,
+      "intersection": 1106,
+      "presentations": 277,
+      "q": 263,
+      "rows": 72574
+    },
+    {
+      "computed_genus_zero": 416,
+      "computed_not_expected": 0,
+      "expected_bbl": 416,
+      "expected_not_computed": 0,
+      "intersection": 416,
+      "presentations": 125,
+      "q": 264,
+      "rows": 10000
+    },
+    {
+      "computed_genus_zero": 870,
+      "computed_not_expected": 0,
+      "expected_bbl": 870,
+      "expected_not_computed": 0,
+      "intersection": 870,
+      "presentations": 218,
+      "q": 265,
+      "rows": 45344
+    },
+    {
+      "computed_genus_zero": 680,
+      "computed_not_expected": 0,
+      "expected_bbl": 680,
+      "expected_not_computed": 0,
+      "intersection": 680,
+      "presentations": 225,
+      "q": 266,
+      "rows": 24300
+    },
+    {
+      "computed_genus_zero": 734,
+      "computed_not_expected": 0,
+      "expected_bbl": 734,
+      "expected_not_computed": 0,
+      "intersection": 734,
+      "presentations": 184,
+      "q": 267,
+      "rows": 32384
+    },
+    {
+      "computed_genus_zero": 676,
+      "computed_not_expected": 0,
+      "expected_bbl": 676,
+      "expected_not_computed": 0,
+      "intersection": 676,
+      "presentations": 203,
+      "q": 268,
+      "rows": 26796
+    },
+    {
+      "computed_genus_zero": 1122,
+      "computed_not_expected": 0,
+      "expected_bbl": 1122,
+      "expected_not_computed": 0,
+      "intersection": 1122,
+      "presentations": 281,
+      "q": 269,
+      "rows": 75308
+    },
+    {
+      "computed_genus_zero": 444,
+      "computed_not_expected": 0,
+      "expected_bbl": 444,
+      "expected_not_computed": 0,
+      "intersection": 444,
+      "presentations": 148,
+      "q": 270,
+      "rows": 10656
+    },
+    {
+      "computed_genus_zero": 1114,
+      "computed_not_expected": 0,
+      "expected_bbl": 1114,
+      "expected_not_computed": 0,
+      "intersection": 1114,
+      "presentations": 279,
+      "q": 271,
+      "rows": 75330
+    },
+    {
+      "computed_genus_zero": 672,
+      "computed_not_expected": 0,
+      "expected_bbl": 672,
+      "expected_not_computed": 0,
+      "intersection": 672,
+      "presentations": 201,
+      "q": 272,
+      "rows": 25728
+    },
+    {
+      "computed_genus_zero": 590,
+      "computed_not_expected": 0,
+      "expected_bbl": 590,
+      "expected_not_computed": 0,
+      "intersection": 590,
+      "presentations": 148,
+      "q": 273,
+      "rows": 21312
+    },
+    {
+      "computed_genus_zero": 864,
+      "computed_not_expected": 0,
+      "expected_bbl": 864,
+      "expected_not_computed": 0,
+      "intersection": 864,
+      "presentations": 285,
+      "q": 274,
+      "rows": 38760
+    },
+    {
+      "computed_genus_zero": 834,
+      "computed_not_expected": 0,
+      "expected_bbl": 834,
+      "expected_not_computed": 0,
+      "intersection": 834,
+      "presentations": 209,
+      "q": 275,
+      "rows": 41800
+    },
+    {
+      "computed_genus_zero": 468,
+      "computed_not_expected": 0,
+      "expected_bbl": 468,
+      "expected_not_computed": 0,
+      "intersection": 468,
+      "presentations": 140,
+      "q": 276,
+      "rows": 12320
+    },
+    {
+      "computed_genus_zero": 1146,
+      "computed_not_expected": 0,
+      "expected_bbl": 1146,
+      "expected_not_computed": 0,
+      "intersection": 1146,
+      "presentations": 287,
+      "q": 277,
+      "rows": 79212
+    },
+    {
+      "computed_genus_zero": 860,
+      "computed_not_expected": 0,
+      "expected_bbl": 860,
+      "expected_not_computed": 0,
+      "intersection": 860,
+      "presentations": 285,
+      "q": 278,
+      "rows": 39330
+    },
+    {
+      "computed_genus_zero": 742,
+      "computed_not_expected": 0,
+      "expected_bbl": 742,
+      "expected_not_computed": 0,
+      "intersection": 742,
+      "presentations": 186,
+      "q": 279,
+      "rows": 33480
+    },
+    {
+      "computed_genus_zero": 520,
+      "computed_not_expected": 0,
+      "expected_bbl": 520,
+      "expected_not_computed": 0,
+      "intersection": 520,
+      "presentations": 155,
+      "q": 280,
+      "rows": 14880
+    },
+    {
+      "computed_genus_zero": 1162,
+      "computed_not_expected": 0,
+      "expected_bbl": 1162,
+      "expected_not_computed": 0,
+      "intersection": 1162,
+      "presentations": 291,
+      "q": 281,
+      "rows": 81480
+    },
+    {
+      "computed_genus_zero": 556,
+      "computed_not_expected": 0,
+      "expected_bbl": 556,
+      "expected_not_computed": 0,
+      "intersection": 556,
+      "presentations": 186,
+      "q": 282,
+      "rows": 17112
+    },
+    {
+      "computed_genus_zero": 1178,
+      "computed_not_expected": 0,
+      "expected_bbl": 1178,
+      "expected_not_computed": 0,
+      "intersection": 1178,
+      "presentations": 295,
+      "q": 283,
+      "rows": 83190
+    },
+    {
+      "computed_genus_zero": 748,
+      "computed_not_expected": 0,
+      "expected_bbl": 748,
+      "expected_not_computed": 0,
+      "intersection": 748,
+      "presentations": 223,
+      "q": 284,
+      "rows": 31220
+    },
+    {
+      "computed_genus_zero": 590,
+      "computed_not_expected": 0,
+      "expected_bbl": 590,
+      "expected_not_computed": 0,
+      "intersection": 590,
+      "presentations": 148,
+      "q": 285,
+      "rows": 21312
+    },
+    {
+      "computed_genus_zero": 752,
+      "computed_not_expected": 0,
+      "expected_bbl": 752,
+      "expected_not_computed": 0,
+      "intersection": 752,
+      "presentations": 249,
+      "q": 286,
+      "rows": 29880
+    },
+    {
+      "computed_genus_zero": 998,
+      "computed_not_expected": 0,
+      "expected_bbl": 998,
+      "expected_not_computed": 0,
+      "intersection": 998,
+      "presentations": 250,
+      "q": 287,
+      "rows": 60000
+    },
+    {
+      "computed_genus_zero": 504,
+      "computed_not_expected": 0,
+      "expected_bbl": 504,
+      "expected_not_computed": 0,
+      "intersection": 504,
+      "presentations": 151,
+      "q": 288,
+      "rows": 14496
+    },
+    {
+      "computed_genus_zero": 1110,
+      "computed_not_expected": 0,
+      "expected_bbl": 1110,
+      "expected_not_computed": 0,
+      "intersection": 1110,
+      "presentations": 278,
+      "q": 289,
+      "rows": 75616
+    },
+    {
+      "computed_genus_zero": 692,
+      "computed_not_expected": 0,
+      "expected_bbl": 692,
+      "expected_not_computed": 0,
+      "intersection": 692,
+      "presentations": 230,
+      "q": 290,
+      "rows": 25760
+    },
+    {
+      "computed_genus_zero": 798,
+      "computed_not_expected": 0,
+      "expected_bbl": 798,
+      "expected_not_computed": 0,
+      "intersection": 798,
+      "presentations": 200,
+      "q": 291,
+      "rows": 38400
+    },
+    {
+      "computed_genus_zero": 768,
+      "computed_not_expected": 0,
+      "expected_bbl": 768,
+      "expected_not_computed": 0,
+      "intersection": 768,
+      "presentations": 229,
+      "q": 292,
+      "rows": 32976
+    },
+    {
+      "computed_genus_zero": 1226,
+      "computed_not_expected": 0,
+      "expected_bbl": 1226,
+      "expected_not_computed": 0,
+      "intersection": 1226,
+      "presentations": 307,
+      "q": 293,
+      "rows": 89644
+    },
+    {
+      "computed_genus_zero": 516,
+      "computed_not_expected": 0,
+      "expected_bbl": 516,
+      "expected_not_computed": 0,
+      "intersection": 516,
+      "presentations": 172,
+      "q": 294,
+      "rows": 14448
+    },
+    {
+      "computed_genus_zero": 962,
+      "computed_not_expected": 0,
+      "expected_bbl": 962,
+      "expected_not_computed": 0,
+      "intersection": 962,
+      "presentations": 241,
+      "q": 295,
+      "rows": 55912
+    },
+    {
+      "computed_genus_zero": 752,
+      "computed_not_expected": 0,
+      "expected_bbl": 752,
+      "expected_not_computed": 0,
+      "intersection": 752,
+      "presentations": 225,
+      "q": 296,
+      "rows": 32400
+    },
+    {
+      "computed_genus_zero": 750,
+      "computed_not_expected": 0,
+      "expected_bbl": 750,
+      "expected_not_computed": 0,
+      "intersection": 750,
+      "presentations": 188,
+      "q": 297,
+      "rows": 33840
+    },
+    {
+      "computed_genus_zero": 944,
+      "computed_not_expected": 0,
+      "expected_bbl": 944,
+      "expected_not_computed": 0,
+      "intersection": 944,
+      "presentations": 311,
+      "q": 298,
+      "rows": 46028
+    },
+    {
+      "computed_genus_zero": 1082,
+      "computed_not_expected": 0,
+      "expected_bbl": 1082,
+      "expected_not_computed": 0,
+      "intersection": 1082,
+      "presentations": 271,
+      "q": 299,
+      "rows": 71544
+    },
+    {
+      "computed_genus_zero": 412,
+      "computed_not_expected": 0,
+      "expected_bbl": 412,
+      "expected_not_computed": 0,
+      "intersection": 412,
+      "presentations": 124,
+      "q": 300,
+      "rows": 9920
+    },
+    {
+      "computed_genus_zero": 1042,
+      "computed_not_expected": 0,
+      "expected_bbl": 1042,
+      "expected_not_computed": 0,
+      "intersection": 1042,
+      "presentations": 261,
+      "q": 301,
+      "rows": 65772
+    },
+    {
+      "computed_genus_zero": 940,
+      "computed_not_expected": 0,
+      "expected_bbl": 940,
+      "expected_not_computed": 0,
+      "intersection": 940,
+      "presentations": 311,
+      "q": 302,
+      "rows": 46650
+    },
+    {
+      "computed_genus_zero": 822,
+      "computed_not_expected": 0,
+      "expected_bbl": 822,
+      "expected_not_computed": 0,
+      "intersection": 822,
+      "presentations": 206,
+      "q": 303,
+      "rows": 41200
+    },
+    {
+      "computed_genus_zero": 752,
+      "computed_not_expected": 0,
+      "expected_bbl": 752,
+      "expected_not_computed": 0,
+      "intersection": 752,
+      "presentations": 225,
+      "q": 304,
+      "rows": 32400
+    },
+    {
+      "computed_genus_zero": 1010,
+      "computed_not_expected": 0,
+      "expected_bbl": 1010,
+      "expected_not_computed": 0,
+      "intersection": 1010,
+      "presentations": 253,
+      "q": 305,
+      "rows": 60720
+    },
+    {
+      "computed_genus_zero": 588,
+      "computed_not_expected": 0,
+      "expected_bbl": 588,
+      "expected_not_computed": 0,
+      "intersection": 588,
+      "presentations": 196,
+      "q": 306,
+      "rows": 18816
+    },
+    {
+      "computed_genus_zero": 1274,
+      "computed_not_expected": 0,
+      "expected_bbl": 1274,
+      "expected_not_computed": 0,
+      "intersection": 1274,
+      "presentations": 319,
+      "q": 307,
+      "rows": 97614
+    },
+    {
+      "computed_genus_zero": 624,
+      "computed_not_expected": 0,
+      "expected_bbl": 624,
+      "expected_not_computed": 0,
+      "intersection": 624,
+      "presentations": 187,
+      "q": 308,
+      "rows": 22440
+    },
+    {
+      "computed_genus_zero": 838,
+      "computed_not_expected": 0,
+      "expected_bbl": 838,
+      "expected_not_computed": 0,
+      "intersection": 838,
+      "presentations": 210,
+      "q": 309,
+      "rows": 42840
+    },
+    {
+      "computed_genus_zero": 744,
+      "computed_not_expected": 0,
+      "expected_bbl": 744,
+      "expected_not_computed": 0,
+      "intersection": 744,
+      "presentations": 247,
+      "q": 310,
+      "rows": 29640
+    },
+    {
+      "computed_genus_zero": 1290,
+      "computed_not_expected": 0,
+      "expected_bbl": 1290,
+      "expected_not_computed": 0,
+      "intersection": 1290,
+      "presentations": 323,
+      "q": 311,
+      "rows": 100130
+    },
+    {
+      "computed_genus_zero": 496,
+      "computed_not_expected": 0,
+      "expected_bbl": 496,
+      "expected_not_computed": 0,
+      "intersection": 496,
+      "presentations": 149,
+      "q": 312,
+      "rows": 14304
+    },
+    {
+      "computed_genus_zero": 1294,
+      "computed_not_expected": 0,
+      "expected_bbl": 1294,
+      "expected_not_computed": 0,
+      "intersection": 1294,
+      "presentations": 324,
+      "q": 313,
+      "rows": 101088
+    },
+    {
+      "computed_genus_zero": 1000,
+      "computed_not_expected": 0,
+      "expected_bbl": 1000,
+      "expected_not_computed": 0,
+      "intersection": 1000,
+      "presentations": 329,
+      "q": 314,
+      "rows": 51324
+    },
+    {
+      "computed_genus_zero": 590,
+      "computed_not_expected": 0,
+      "expected_bbl": 590,
+      "expected_not_computed": 0,
+      "intersection": 590,
+      "presentations": 148,
+      "q": 315,
+      "rows": 21312
+    },
+    {
+      "computed_genus_zero": 820,
+      "computed_not_expected": 0,
+      "expected_bbl": 820,
+      "expected_not_computed": 0,
+      "intersection": 820,
+      "presentations": 245,
+      "q": 316,
+      "rows": 38220
+    },
+    {
+      "computed_genus_zero": 1290,
+      "computed_not_expected": 0,
+      "expected_bbl": 1290,
+      "expected_not_computed": 0,
+      "intersection": 1290,
+      "presentations": 323,
+      "q": 317,
+      "rows": 102068
+    },
+    {
+      "computed_genus_zero": 652,
+      "computed_not_expected": 0,
+      "expected_bbl": 652,
+      "expected_not_computed": 0,
+      "intersection": 652,
+      "presentations": 216,
+      "q": 318,
+      "rows": 22464
+    },
+    {
+      "computed_genus_zero": 1162,
+      "computed_not_expected": 0,
+      "expected_bbl": 1162,
+      "expected_not_computed": 0,
+      "intersection": 1162,
+      "presentations": 291,
+      "q": 319,
+      "rows": 81480
+    },
+    {
+      "computed_genus_zero": 664,
+      "computed_not_expected": 0,
+      "expected_bbl": 664,
+      "expected_not_computed": 0,
+      "intersection": 664,
+      "presentations": 199,
+      "q": 320,
+      "rows": 25472
+    },
+    {
+      "computed_genus_zero": 862,
+      "computed_not_expected": 0,
+      "expected_bbl": 862,
+      "expected_not_computed": 0,
+      "intersection": 862,
+      "presentations": 216,
+      "q": 321,
+      "rows": 45792
+    },
+    {
+      "computed_genus_zero": 824,
+      "computed_not_expected": 0,
+      "expected_bbl": 824,
+      "expected_not_computed": 0,
+      "intersection": 824,
+      "presentations": 273,
+      "q": 322,
+      "rows": 36036
+    },
+    {
+      "computed_genus_zero": 1198,
+      "computed_not_expected": 0,
+      "expected_bbl": 1198,
+      "expected_not_computed": 0,
+      "intersection": 1198,
+      "presentations": 300,
+      "q": 323,
+      "rows": 86400
+    },
+    {
+      "computed_genus_zero": 568,
+      "computed_not_expected": 0,
+      "expected_bbl": 568,
+      "expected_not_computed": 0,
+      "intersection": 568,
+      "presentations": 170,
+      "q": 324,
+      "rows": 18360
+    },
+    {
+      "computed_genus_zero": 1006,
+      "computed_not_expected": 0,
+      "expected_bbl": 1006,
+      "expected_not_computed": 0,
+      "intersection": 1006,
+      "presentations": 252,
+      "q": 325,
+      "rows": 60480
+    },
+    {
+      "computed_genus_zero": 1012,
+      "computed_not_expected": 0,
+      "expected_bbl": 1012,
+      "expected_not_computed": 0,
+      "intersection": 1012,
+      "presentations": 335,
+      "q": 326,
+      "rows": 54270
+    },
+    {
+      "computed_genus_zero": 878,
+      "computed_not_expected": 0,
+      "expected_bbl": 878,
+      "expected_not_computed": 0,
+      "intersection": 878,
+      "presentations": 220,
+      "q": 327,
+      "rows": 47520
+    },
+    {
+      "computed_genus_zero": 832,
+      "computed_not_expected": 0,
+      "expected_bbl": 832,
+      "expected_not_computed": 0,
+      "intersection": 832,
+      "presentations": 249,
+      "q": 328,
+      "rows": 39840
+    },
+    {
+      "computed_genus_zero": 1146,
+      "computed_not_expected": 0,
+      "expected_bbl": 1146,
+      "expected_not_computed": 0,
+      "intersection": 1146,
+      "presentations": 287,
+      "q": 329,
+      "rows": 79212
+    },
+    {
+      "computed_genus_zero": 484,
+      "computed_not_expected": 0,
+      "expected_bbl": 484,
+      "expected_not_computed": 0,
+      "intersection": 484,
+      "presentations": 162,
+      "q": 330,
+      "rows": 12960
+    },
+    {
+      "computed_genus_zero": 1370,
+      "computed_not_expected": 0,
+      "expected_bbl": 1370,
+      "expected_not_computed": 0,
+      "intersection": 1370,
+      "presentations": 343,
+      "q": 331,
+      "rows": 113190
+    },
+    {
+      "computed_genus_zero": 876,
+      "computed_not_expected": 0,
+      "expected_bbl": 876,
+      "expected_not_computed": 0,
+      "intersection": 876,
+      "presentations": 261,
+      "q": 332,
+      "rows": 42804
+    },
+    {
+      "computed_genus_zero": 902,
+      "computed_not_expected": 0,
+      "expected_bbl": 902,
+      "expected_not_computed": 0,
+      "intersection": 902,
+      "presentations": 226,
+      "q": 333,
+      "rows": 48816
+    },
+    {
+      "computed_genus_zero": 1028,
+      "computed_not_expected": 0,
+      "expected_bbl": 1028,
+      "expected_not_computed": 0,
+      "intersection": 1028,
+      "presentations": 341,
+      "q": 334,
+      "rows": 56606
+    },
+    {
+      "computed_genus_zero": 1082,
+      "computed_not_expected": 0,
+      "expected_bbl": 1082,
+      "expected_not_computed": 0,
+      "intersection": 1082,
+      "presentations": 271,
+      "q": 335,
+      "rows": 71544
+    },
+    {
+      "computed_genus_zero": 492,
+      "computed_not_expected": 0,
+      "expected_bbl": 492,
+      "expected_not_computed": 0,
+      "intersection": 492,
+      "presentations": 148,
+      "q": 336,
+      "rows": 14208
+    },
+    {
+      "computed_genus_zero": 1398,
+      "computed_not_expected": 0,
+      "expected_bbl": 1398,
+      "expected_not_computed": 0,
+      "intersection": 1398,
+      "presentations": 350,
+      "q": 337,
+      "rows": 117600
+    },
+    {
+      "computed_genus_zero": 976,
+      "computed_not_expected": 0,
+      "expected_bbl": 976,
+      "expected_not_computed": 0,
+      "intersection": 976,
+      "presentations": 323,
+      "q": 338,
+      "rows": 50388
+    },
+    {
+      "computed_genus_zero": 922,
+      "computed_not_expected": 0,
+      "expected_bbl": 922,
+      "expected_not_computed": 0,
+      "intersection": 922,
+      "presentations": 231,
+      "q": 339,
+      "rows": 51744
+    },
+    {
+      "computed_genus_zero": 664,
+      "computed_not_expected": 0,
+      "expected_bbl": 664,
+      "expected_not_computed": 0,
+      "intersection": 664,
+      "presentations": 199,
+      "q": 340,
+      "rows": 25472
+    },
+    {
+      "computed_genus_zero": 1234,
+      "computed_not_expected": 0,
+      "expected_bbl": 1234,
+      "expected_not_computed": 0,
+      "intersection": 1234,
+      "presentations": 309,
+      "q": 341,
+      "rows": 92700
+    },
+    {
+      "computed_genus_zero": 668,
+      "computed_not_expected": 0,
+      "expected_bbl": 668,
+      "expected_not_computed": 0,
+      "intersection": 668,
+      "presentations": 222,
+      "q": 342,
+      "rows": 23976
+    },
+    {
+      "computed_genus_zero": 1210,
+      "computed_not_expected": 0,
+      "expected_bbl": 1210,
+      "expected_not_computed": 0,
+      "intersection": 1210,
+      "presentations": 303,
+      "q": 343,
+      "rows": 89082
+    },
+    {
+      "computed_genus_zero": 880,
+      "computed_not_expected": 0,
+      "expected_bbl": 880,
+      "expected_not_computed": 0,
+      "intersection": 880,
+      "presentations": 263,
+      "q": 344,
+      "rows": 44184
+    },
+    {
+      "computed_genus_zero": 718,
+      "computed_not_expected": 0,
+      "expected_bbl": 718,
+      "expected_not_computed": 0,
+      "intersection": 718,
+      "presentations": 180,
+      "q": 345,
+      "rows": 31680
+    },
+    {
+      "computed_genus_zero": 1088,
+      "computed_not_expected": 0,
+      "expected_bbl": 1088,
+      "expected_not_computed": 0,
+      "intersection": 1088,
+      "presentations": 359,
+      "q": 346,
+      "rows": 61748
+    },
+    {
+      "computed_genus_zero": 1442,
+      "computed_not_expected": 0,
+      "expected_bbl": 1442,
+      "expected_not_computed": 0,
+      "intersection": 1442,
+      "presentations": 361,
+      "q": 347,
+      "rows": 124906
+    },
+    {
+      "computed_genus_zero": 572,
+      "computed_not_expected": 0,
+      "expected_bbl": 572,
+      "expected_not_computed": 0,
+      "intersection": 572,
+      "presentations": 172,
+      "q": 348,
+      "rows": 19264
+    },
+    {
+      "computed_genus_zero": 1434,
+      "computed_not_expected": 0,
+      "expected_bbl": 1434,
+      "expected_not_computed": 0,
+      "intersection": 1434,
+      "presentations": 359,
+      "q": 349,
+      "rows": 124932
+    },
+    {
+      "computed_genus_zero": 744,
+      "computed_not_expected": 0,
+      "expected_bbl": 744,
+      "expected_not_computed": 0,
+      "intersection": 744,
+      "presentations": 247,
+      "q": 350,
+      "rows": 29640
+    },
+    {
+      "computed_genus_zero": 894,
+      "computed_not_expected": 0,
+      "expected_bbl": 894,
+      "expected_not_computed": 0,
+      "intersection": 894,
+      "presentations": 224,
+      "q": 351,
+      "rows": 48384
+    },
+    {
+      "computed_genus_zero": 848,
+      "computed_not_expected": 0,
+      "expected_bbl": 848,
+      "expected_not_computed": 0,
+      "intersection": 848,
+      "presentations": 253,
+      "q": 352,
+      "rows": 40480
+    },
+    {
+      "computed_genus_zero": 1450,
+      "computed_not_expected": 0,
+      "expected_bbl": 1450,
+      "expected_not_computed": 0,
+      "intersection": 1450,
+      "presentations": 363,
+      "q": 353,
+      "rows": 127776
+    },
+    {
+      "computed_genus_zero": 708,
+      "computed_not_expected": 0,
+      "expected_bbl": 708,
+      "expected_not_computed": 0,
+      "intersection": 708,
+      "presentations": 236,
+      "q": 354,
+      "rows": 27376
+    },
+    {
+      "computed_genus_zero": 1146,
+      "computed_not_expected": 0,
+      "expected_bbl": 1146,
+      "expected_not_computed": 0,
+      "intersection": 1146,
+      "presentations": 287,
+      "q": 355,
+      "rows": 80360
+    },
+    {
+      "computed_genus_zero": 928,
+      "computed_not_expected": 0,
+      "expected_bbl": 928,
+      "expected_not_computed": 0,
+      "intersection": 928,
+      "presentations": 277,
+      "q": 356,
+      "rows": 48752
+    },
+    {
+      "computed_genus_zero": 806,
+      "computed_not_expected": 0,
+      "expected_bbl": 806,
+      "expected_not_computed": 0,
+      "intersection": 806,
+      "presentations": 202,
+      "q": 357,
+      "rows": 38784
+    },
+    {
+      "computed_genus_zero": 1116,
+      "computed_not_expected": 0,
+      "expected_bbl": 1116,
+      "expected_not_computed": 0,
+      "intersection": 1116,
+      "presentations": 369,
+      "q": 358,
+      "rows": 65682
+    },
+    {
+      "computed_genus_zero": 1458,
+      "computed_not_expected": 0,
+      "expected_bbl": 1458,
+      "expected_not_computed": 0,
+      "intersection": 1458,
+      "presentations": 365,
+      "q": 359,
+      "rows": 130670
+    },
+    {
+      "computed_genus_zero": 488,
+      "computed_not_expected": 0,
+      "expected_bbl": 488,
+      "expected_not_computed": 0,
+      "intersection": 488,
+      "presentations": 147,
+      "q": 360,
+      "rows": 14112
+    },
+    {
+      "computed_genus_zero": 1402,
+      "computed_not_expected": 0,
+      "expected_bbl": 1402,
+      "expected_not_computed": 0,
+      "intersection": 1402,
+      "presentations": 351,
+      "q": 361,
+      "rows": 120042
+    },
+    {
+      "computed_genus_zero": 1116,
+      "computed_not_expected": 0,
+      "expected_bbl": 1116,
+      "expected_not_computed": 0,
+      "intersection": 1116,
+      "presentations": 370,
+      "q": 362,
+      "rows": 66600
+    },
+    {
+      "computed_genus_zero": 910,
+      "computed_not_expected": 0,
+      "expected_bbl": 910,
+      "expected_not_computed": 0,
+      "intersection": 910,
+      "presentations": 228,
+      "q": 363,
+      "rows": 50160
+    },
+    {
+      "computed_genus_zero": 756,
+      "computed_not_expected": 0,
+      "expected_bbl": 756,
+      "expected_not_computed": 0,
+      "intersection": 756,
+      "presentations": 226,
+      "q": 364,
+      "rows": 32544
+    },
+    {
+      "computed_genus_zero": 1198,
+      "computed_not_expected": 0,
+      "expected_bbl": 1198,
+      "expected_not_computed": 0,
+      "intersection": 1198,
+      "presentations": 300,
+      "q": 365,
+      "rows": 86400
+    },
+    {
+      "computed_genus_zero": 732,
+      "computed_not_expected": 0,
+      "expected_bbl": 732,
+      "expected_not_computed": 0,
+      "intersection": 732,
+      "presentations": 244,
+      "q": 366,
+      "rows": 29280
+    },
+    {
+      "computed_genus_zero": 1514,
+      "computed_not_expected": 0,
+      "expected_bbl": 1514,
+      "expected_not_computed": 0,
+      "intersection": 1514,
+      "presentations": 379,
+      "q": 367,
+      "rows": 138714
+    },
+    {
+      "computed_genus_zero": 936,
+      "computed_not_expected": 0,
+      "expected_bbl": 936,
+      "expected_not_computed": 0,
+      "intersection": 936,
+      "presentations": 279,
+      "q": 368,
+      "rows": 49104
+    },
+    {
+      "computed_genus_zero": 982,
+      "computed_not_expected": 0,
+      "expected_bbl": 982,
+      "expected_not_computed": 0,
+      "intersection": 982,
+      "presentations": 246,
+      "q": 369,
+      "rows": 59040
+    },
+    {
+      "computed_genus_zero": 904,
+      "computed_not_expected": 0,
+      "expected_bbl": 904,
+      "expected_not_computed": 0,
+      "intersection": 904,
+      "presentations": 299,
+      "q": 370,
+      "rows": 43056
+    },
+    {
+      "computed_genus_zero": 1290,
+      "computed_not_expected": 0,
+      "expected_bbl": 1290,
+      "expected_not_computed": 0,
+      "intersection": 1290,
+      "presentations": 323,
+      "q": 371,
+      "rows": 100776
+    },
+    {
+      "computed_genus_zero": 612,
+      "computed_not_expected": 0,
+      "expected_bbl": 612,
+      "expected_not_computed": 0,
+      "intersection": 612,
+      "presentations": 184,
+      "q": 372,
+      "rows": 22080
+    },
+    {
+      "computed_genus_zero": 1530,
+      "computed_not_expected": 0,
+      "expected_bbl": 1530,
+      "expected_not_computed": 0,
+      "intersection": 1530,
+      "presentations": 383,
+      "q": 373,
+      "rows": 142476
+    },
+    {
+      "computed_genus_zero": 1000,
+      "computed_not_expected": 0,
+      "expected_bbl": 1000,
+      "expected_not_computed": 0,
+      "intersection": 1000,
+      "presentations": 331,
+      "q": 374,
+      "rows": 52960
+    },
+    {
+      "computed_genus_zero": 822,
+      "computed_not_expected": 0,
+      "expected_bbl": 822,
+      "expected_not_computed": 0,
+      "intersection": 822,
+      "presentations": 206,
+      "q": 375,
+      "rows": 41200
+    },
+    {
+      "computed_genus_zero": 952,
+      "computed_not_expected": 0,
+      "expected_bbl": 952,
+      "expected_not_computed": 0,
+      "intersection": 952,
+      "presentations": 285,
+      "q": 376,
+      "rows": 52440
+    },
+    {
+      "computed_genus_zero": 1386,
+      "computed_not_expected": 0,
+      "expected_bbl": 1386,
+      "expected_not_computed": 0,
+      "intersection": 1386,
+      "presentations": 347,
+      "q": 377,
+      "rows": 116592
+    },
+    {
+      "computed_genus_zero": 660,
+      "computed_not_expected": 0,
+      "expected_bbl": 660,
+      "expected_not_computed": 0,
+      "intersection": 660,
+      "presentations": 220,
+      "q": 378,
+      "rows": 23760
+    },
+    {
+      "computed_genus_zero": 1570,
+      "computed_not_expected": 0,
+      "expected_bbl": 1570,
+      "expected_not_computed": 0,
+      "intersection": 1570,
+      "presentations": 393,
+      "q": 379,
+      "rows": 148554
+    },
+    {
+      "computed_genus_zero": 744,
+      "computed_not_expected": 0,
+      "expected_bbl": 744,
+      "expected_not_computed": 0,
+      "intersection": 744,
+      "presentations": 223,
+      "q": 380,
+      "rows": 32112
+    },
+    {
+      "computed_genus_zero": 1030,
+      "computed_not_expected": 0,
+      "expected_bbl": 1030,
+      "expected_not_computed": 0,
+      "intersection": 1030,
+      "presentations": 258,
+      "q": 381,
+      "rows": 65016
+    },
+    {
+      "computed_genus_zero": 1188,
+      "computed_not_expected": 0,
+      "expected_bbl": 1188,
+      "expected_not_computed": 0,
+      "intersection": 1188,
+      "presentations": 393,
+      "q": 382,
+      "rows": 74670
+    },
+    {
+      "computed_genus_zero": 1578,
+      "computed_not_expected": 0,
+      "expected_bbl": 1578,
+      "expected_not_computed": 0,
+      "intersection": 1578,
+      "presentations": 395,
+      "q": 383,
+      "rows": 150890
+    },
+    {
+      "computed_genus_zero": 668,
+      "computed_not_expected": 0,
+      "expected_bbl": 668,
+      "expected_not_computed": 0,
+      "intersection": 668,
+      "presentations": 200,
+      "q": 384,
+      "rows": 25600
+    },
+    {
+      "computed_genus_zero": 970,
+      "computed_not_expected": 0,
+      "expected_bbl": 970,
+      "expected_not_computed": 0,
+      "intersection": 970,
+      "presentations": 243,
+      "q": 385,
+      "rows": 58320
+    },
+    {
+      "computed_genus_zero": 1192,
+      "computed_not_expected": 0,
+      "expected_bbl": 1192,
+      "expected_not_computed": 0,
+      "intersection": 1192,
+      "presentations": 395,
+      "q": 386,
+      "rows": 75840
+    },
+    {
+      "computed_genus_zero": 1030,
+      "computed_not_expected": 0,
+      "expected_bbl": 1030,
+      "expected_not_computed": 0,
+      "intersection": 1030,
+      "presentations": 258,
+      "q": 387,
+      "rows": 65016
+    },
+    {
+      "computed_genus_zero": 1008,
+      "computed_not_expected": 0,
+      "expected_bbl": 1008,
+      "expected_not_computed": 0,
+      "intersection": 1008,
+      "presentations": 301,
+      "q": 388,
+      "rows": 57792
+    },
+    {
+      "computed_genus_zero": 1610,
+      "computed_not_expected": 0,
+      "expected_bbl": 1610,
+      "expected_not_computed": 0,
+      "intersection": 1610,
+      "presentations": 403,
+      "q": 389,
+      "rows": 156364
+    },
+    {
+      "computed_genus_zero": 596,
+      "computed_not_expected": 0,
+      "expected_bbl": 596,
+      "expected_not_computed": 0,
+      "intersection": 596,
+      "presentations": 198,
+      "q": 390,
+      "rows": 19008
+    },
+    {
+      "computed_genus_zero": 1470,
+      "computed_not_expected": 0,
+      "expected_bbl": 1470,
+      "expected_not_computed": 0,
+      "intersection": 1470,
+      "presentations": 368,
+      "q": 391,
+      "rows": 129536
+    },
+    {
+      "computed_genus_zero": 880,
+      "computed_not_expected": 0,
+      "expected_bbl": 880,
+      "expected_not_computed": 0,
+      "intersection": 880,
+      "presentations": 263,
+      "q": 392,
+      "rows": 44184
+    },
+    {
+      "computed_genus_zero": 1058,
+      "computed_not_expected": 0,
+      "expected_bbl": 1058,
+      "expected_not_computed": 0,
+      "intersection": 1058,
+      "presentations": 265,
+      "q": 393,
+      "rows": 68900
+    },
+    {
+      "computed_genus_zero": 1192,
+      "computed_not_expected": 0,
+      "expected_bbl": 1192,
+      "expected_not_computed": 0,
+      "intersection": 1192,
+      "presentations": 397,
+      "q": 394,
+      "rows": 77812
+    },
+    {
+      "computed_genus_zero": 1282,
+      "computed_not_expected": 0,
+      "expected_bbl": 1282,
+      "expected_not_computed": 0,
+      "intersection": 1282,
+      "presentations": 321,
+      "q": 395,
+      "rows": 100152
+    },
+    {
+      "computed_genus_zero": 620,
+      "computed_not_expected": 0,
+      "expected_bbl": 620,
+      "expected_not_computed": 0,
+      "intersection": 620,
+      "presentations": 186,
+      "q": 396,
+      "rows": 22320
+    },
+    {
+      "computed_genus_zero": 1634,
+      "computed_not_expected": 0,
+      "expected_bbl": 1634,
+      "expected_not_computed": 0,
+      "intersection": 1634,
+      "presentations": 409,
+      "q": 397,
+      "rows": 161964
+    },
+    {
+      "computed_genus_zero": 1228,
+      "computed_not_expected": 0,
+      "expected_bbl": 1228,
+      "expected_not_computed": 0,
+      "intersection": 1228,
+      "presentations": 407,
+      "q": 398,
+      "rows": 80586
+    },
+    {
+      "computed_genus_zero": 882,
+      "computed_not_expected": 0,
+      "expected_bbl": 882,
+      "expected_not_computed": 0,
+      "intersection": 882,
+      "presentations": 221,
+      "q": 399,
+      "rows": 47736
+    },
+    {
+      "computed_genus_zero": 840,
+      "computed_not_expected": 0,
+      "expected_bbl": 840,
+      "expected_not_computed": 0,
+      "intersection": 840,
+      "presentations": 251,
+      "q": 400,
+      "rows": 40160
+    },
+    {
+      "computed_genus_zero": 1638,
+      "computed_not_expected": 0,
+      "expected_bbl": 1638,
+      "expected_not_computed": 0,
+      "intersection": 1638,
+      "presentations": 410,
+      "q": 401,
+      "rows": 164000
+    },
+    {
+      "computed_genus_zero": 828,
+      "computed_not_expected": 0,
+      "expected_bbl": 828,
+      "expected_not_computed": 0,
+      "intersection": 828,
+      "presentations": 274,
+      "q": 402,
+      "rows": 36168
+    },
+    {
+      "computed_genus_zero": 1482,
+      "computed_not_expected": 0,
+      "expected_bbl": 1482,
+      "expected_not_computed": 0,
+      "intersection": 1482,
+      "presentations": 371,
+      "q": 403,
+      "rows": 133560
+    },
+    {
+      "computed_genus_zero": 1040,
+      "computed_not_expected": 0,
+      "expected_bbl": 1040,
+      "expected_not_computed": 0,
+      "intersection": 1040,
+      "presentations": 311,
+      "q": 404,
+      "rows": 62200
+    },
+    {
+      "computed_genus_zero": 878,
+      "computed_not_expected": 0,
+      "expected_bbl": 878,
+      "expected_not_computed": 0,
+      "intersection": 878,
+      "presentations": 220,
+      "q": 405,
+      "rows": 47520
+    },
+    {
+      "computed_genus_zero": 1048,
+      "computed_not_expected": 0,
+      "expected_bbl": 1048,
+      "expected_not_computed": 0,
+      "intersection": 1048,
+      "presentations": 347,
+      "q": 406,
+      "rows": 58296
+    },
+    {
+      "computed_genus_zero": 1474,
+      "computed_not_expected": 0,
+      "expected_bbl": 1474,
+      "expected_not_computed": 0,
+      "intersection": 1474,
+      "presentations": 369,
+      "q": 407,
+      "rows": 132840
+    },
+    {
+      "computed_genus_zero": 660,
+      "computed_not_expected": 0,
+      "expected_bbl": 660,
+      "expected_not_computed": 0,
+      "intersection": 660,
+      "presentations": 198,
+      "q": 408,
+      "rows": 25344
+    },
+    {
+      "computed_genus_zero": 1698,
+      "computed_not_expected": 0,
+      "expected_bbl": 1698,
+      "expected_not_computed": 0,
+      "intersection": 1698,
+      "presentations": 425,
+      "q": 409,
+      "rows": 173400
+    },
+    {
+      "computed_genus_zero": 1000,
+      "computed_not_expected": 0,
+      "expected_bbl": 1000,
+      "expected_not_computed": 0,
+      "intersection": 1000,
+      "presentations": 331,
+      "q": 410,
+      "rows": 52960
+    },
+    {
+      "computed_genus_zero": 1102,
+      "computed_not_expected": 0,
+      "expected_bbl": 1102,
+      "expected_not_computed": 0,
+      "intersection": 1102,
+      "presentations": 276,
+      "q": 411,
+      "rows": 75072
+    },
+    {
+      "computed_genus_zero": 1068,
+      "computed_not_expected": 0,
+      "expected_bbl": 1068,
+      "expected_not_computed": 0,
+      "intersection": 1068,
+      "presentations": 319,
+      "q": 412,
+      "rows": 65076
+    },
+    {
+      "computed_genus_zero": 1450,
+      "computed_not_expected": 0,
+      "expected_bbl": 1450,
+      "expected_not_computed": 0,
+      "intersection": 1450,
+      "presentations": 363,
+      "q": 413,
+      "rows": 126324
+    },
+    {
+      "computed_genus_zero": 804,
+      "computed_not_expected": 0,
+      "expected_bbl": 804,
+      "expected_not_computed": 0,
+      "intersection": 804,
+      "presentations": 268,
+      "q": 414,
+      "rows": 35376
+    },
+    {
+      "computed_genus_zero": 1338,
+      "computed_not_expected": 0,
+      "expected_bbl": 1338,
+      "expected_not_computed": 0,
+      "intersection": 1338,
+      "presentations": 335,
+      "q": 415,
+      "rows": 109880
+    },
+    {
+      "computed_genus_zero": 992,
+      "computed_not_expected": 0,
+      "expected_bbl": 992,
+      "expected_not_computed": 0,
+      "intersection": 992,
+      "presentations": 297,
+      "q": 416,
+      "rows": 57024
+    },
+    {
+      "computed_genus_zero": 1142,
+      "computed_not_expected": 0,
+      "expected_bbl": 1142,
+      "expected_not_computed": 0,
+      "intersection": 1142,
+      "presentations": 286,
+      "q": 417,
+      "rows": 78936
+    },
+    {
+      "computed_genus_zero": 1112,
+      "computed_not_expected": 0,
+      "expected_bbl": 1112,
+      "expected_not_computed": 0,
+      "intersection": 1112,
+      "presentations": 369,
+      "q": 418,
+      "rows": 66420
+    },
+    {
+      "computed_genus_zero": 1730,
+      "computed_not_expected": 0,
+      "expected_bbl": 1730,
+      "expected_not_computed": 0,
+      "intersection": 1730,
+      "presentations": 433,
+      "q": 419,
+      "rows": 180994
+    },
+    {
+      "computed_genus_zero": 480,
+      "computed_not_expected": 0,
+      "expected_bbl": 480,
+      "expected_not_computed": 0,
+      "intersection": 480,
+      "presentations": 145,
+      "q": 420,
+      "rows": 13920
+    },
+    {
+      "computed_genus_zero": 1718,
+      "computed_not_expected": 0,
+      "expected_bbl": 1718,
+      "expected_not_computed": 0,
+      "intersection": 1718,
+      "presentations": 430,
+      "q": 421,
+      "rows": 180600
+    },
+    {
+      "computed_genus_zero": 1292,
+      "computed_not_expected": 0,
+      "expected_bbl": 1292,
+      "expected_not_computed": 0,
+      "intersection": 1292,
+      "presentations": 429,
+      "q": 422,
+      "rows": 90090
+    },
+    {
+      "computed_genus_zero": 1142,
+      "computed_not_expected": 0,
+      "expected_bbl": 1142,
+      "expected_not_computed": 0,
+      "intersection": 1142,
+      "presentations": 286,
+      "q": 423,
+      "rows": 78936
+    },
+    {
+      "computed_genus_zero": 1088,
+      "computed_not_expected": 0,
+      "expected_bbl": 1088,
+      "expected_not_computed": 0,
+      "intersection": 1088,
+      "presentations": 325,
+      "q": 424,
+      "rows": 67600
+    },
+    {
+      "computed_genus_zero": 1306,
+      "computed_not_expected": 0,
+      "expected_bbl": 1306,
+      "expected_not_computed": 0,
+      "intersection": 1306,
+      "presentations": 327,
+      "q": 425,
+      "rows": 104640
+    },
+    {
+      "computed_genus_zero": 868,
+      "computed_not_expected": 0,
+      "expected_bbl": 868,
+      "expected_not_computed": 0,
+      "intersection": 868,
+      "presentations": 288,
+      "q": 426,
+      "rows": 40320
+    },
+    {
+      "computed_genus_zero": 1490,
+      "computed_not_expected": 0,
+      "expected_bbl": 1490,
+      "expected_not_computed": 0,
+      "intersection": 1490,
+      "presentations": 373,
+      "q": 427,
+      "rows": 134280
+    },
+    {
+      "computed_genus_zero": 1124,
+      "computed_not_expected": 0,
+      "expected_bbl": 1124,
+      "expected_not_computed": 0,
+      "intersection": 1124,
+      "presentations": 335,
+      "q": 428,
+      "rows": 71020
+    },
+    {
+      "computed_genus_zero": 974,
+      "computed_not_expected": 0,
+      "expected_bbl": 974,
+      "expected_not_computed": 0,
+      "intersection": 974,
+      "presentations": 244,
+      "q": 429,
+      "rows": 58560
+    },
+    {
+      "computed_genus_zero": 1048,
+      "computed_not_expected": 0,
+      "expected_bbl": 1048,
+      "expected_not_computed": 0,
+      "intersection": 1048,
+      "presentations": 347,
+      "q": 430,
+      "rows": 58296
+    },
+    {
+      "computed_genus_zero": 1762,
+      "computed_not_expected": 0,
+      "expected_bbl": 1762,
+      "expected_not_computed": 0,
+      "intersection": 1762,
+      "presentations": 441,
+      "q": 431,
+      "rows": 189630
+    },
+    {
+      "computed_genus_zero": 724,
+      "computed_not_expected": 0,
+      "expected_bbl": 724,
+      "expected_not_computed": 0,
+      "intersection": 724,
+      "presentations": 218,
+      "q": 432,
+      "rows": 31392
+    },
+    {
+      "computed_genus_zero": 1770,
+      "computed_not_expected": 0,
+      "expected_bbl": 1770,
+      "expected_not_computed": 0,
+      "intersection": 1770,
+      "presentations": 443,
+      "q": 433,
+      "rows": 191376
+    },
+    {
+      "computed_genus_zero": 1120,
+      "computed_not_expected": 0,
+      "expected_bbl": 1120,
+      "expected_not_computed": 0,
+      "intersection": 1120,
+      "presentations": 371,
+      "q": 434,
+      "rows": 66780
+    },
+    {
+      "computed_genus_zero": 926,
+      "computed_not_expected": 0,
+      "expected_bbl": 926,
+      "expected_not_computed": 0,
+      "intersection": 926,
+      "presentations": 232,
+      "q": 435,
+      "rows": 51968
+    },
+    {
+      "computed_genus_zero": 1128,
+      "computed_not_expected": 0,
+      "expected_bbl": 1128,
+      "expected_not_computed": 0,
+      "intersection": 1128,
+      "presentations": 337,
+      "q": 436,
+      "rows": 72792
+    },
+    {
+      "computed_genus_zero": 1634,
+      "computed_not_expected": 0,
+      "expected_bbl": 1634,
+      "expected_not_computed": 0,
+      "intersection": 1634,
+      "presentations": 409,
+      "q": 437,
+      "rows": 161964
+    },
+    {
+      "computed_genus_zero": 892,
+      "computed_not_expected": 0,
+      "expected_bbl": 892,
+      "expected_not_computed": 0,
+      "intersection": 892,
+      "presentations": 296,
+      "q": 438,
+      "rows": 42624
+    },
+    {
+      "computed_genus_zero": 1778,
+      "computed_not_expected": 0,
+      "expected_bbl": 1778,
+      "expected_not_computed": 0,
+      "intersection": 1778,
+      "presentations": 445,
+      "q": 439,
+      "rows": 194910
+    },
+    {
+      "computed_genus_zero": 828,
+      "computed_not_expected": 0,
+      "expected_bbl": 828,
+      "expected_not_computed": 0,
+      "intersection": 828,
+      "presentations": 248,
+      "q": 440,
+      "rows": 39680
+    },
+    {
+      "computed_genus_zero": 1030,
+      "computed_not_expected": 0,
+      "expected_bbl": 1030,
+      "expected_not_computed": 0,
+      "intersection": 1030,
+      "presentations": 258,
+      "q": 441,
+      "rows": 65016
+    },
+    {
+      "computed_genus_zero": 1196,
+      "computed_not_expected": 0,
+      "expected_bbl": 1196,
+      "expected_not_computed": 0,
+      "intersection": 1196,
+      "presentations": 396,
+      "q": 442,
+      "rows": 76032
+    },
+    {
+      "computed_genus_zero": 1810,
+      "computed_not_expected": 0,
+      "expected_bbl": 1810,
+      "expected_not_computed": 0,
+      "intersection": 1810,
+      "presentations": 453,
+      "q": 443,
+      "rows": 200226
+    },
+    {
+      "computed_genus_zero": 732,
+      "computed_not_expected": 0,
+      "expected_bbl": 732,
+      "expected_not_computed": 0,
+      "intersection": 732,
+      "presentations": 220,
+      "q": 444,
+      "rows": 31680
+    },
+    {
+      "computed_genus_zero": 1458,
+      "computed_not_expected": 0,
+      "expected_bbl": 1458,
+      "expected_not_computed": 0,
+      "intersection": 1458,
+      "presentations": 365,
+      "q": 445,
+      "rows": 128480
+    },
+    {
+      "computed_genus_zero": 1380,
+      "computed_not_expected": 0,
+      "expected_bbl": 1380,
+      "expected_not_computed": 0,
+      "intersection": 1380,
+      "presentations": 457,
+      "q": 446,
+      "rows": 101454
+    },
+    {
+      "computed_genus_zero": 1206,
+      "computed_not_expected": 0,
+      "expected_bbl": 1206,
+      "expected_not_computed": 0,
+      "intersection": 1206,
+      "presentations": 302,
+      "q": 447,
+      "rows": 89392
+    },
+    {
+      "computed_genus_zero": 992,
+      "computed_not_expected": 0,
+      "expected_bbl": 992,
+      "expected_not_computed": 0,
+      "intersection": 992,
+      "presentations": 297,
+      "q": 448,
+      "rows": 57024
+    },
+    {
+      "computed_genus_zero": 1854,
+      "computed_not_expected": 0,
+      "expected_bbl": 1854,
+      "expected_not_computed": 0,
+      "intersection": 1854,
+      "presentations": 464,
+      "q": 449,
+      "rows": 207872
+    },
+    {
+      "computed_genus_zero": 740,
+      "computed_not_expected": 0,
+      "expected_bbl": 740,
+      "expected_not_computed": 0,
+      "intersection": 740,
+      "presentations": 246,
+      "q": 450,
+      "rows": 29520
+    },
+    {
+      "computed_genus_zero": 1662,
+      "computed_not_expected": 0,
+      "expected_bbl": 1662,
+      "expected_not_computed": 0,
+      "intersection": 1662,
+      "presentations": 416,
+      "q": 451,
+      "rows": 166400
+    },
+    {
+      "computed_genus_zero": 1160,
+      "computed_not_expected": 0,
+      "expected_bbl": 1160,
+      "expected_not_computed": 0,
+      "intersection": 1160,
+      "presentations": 347,
+      "q": 452,
+      "rows": 77728
+    },
+    {
+      "computed_genus_zero": 1214,
+      "computed_not_expected": 0,
+      "expected_bbl": 1214,
+      "expected_not_computed": 0,
+      "intersection": 1214,
+      "presentations": 304,
+      "q": 453,
+      "rows": 91200
+    },
+    {
+      "computed_genus_zero": 1396,
+      "computed_not_expected": 0,
+      "expected_bbl": 1396,
+      "expected_not_computed": 0,
+      "intersection": 1396,
+      "presentations": 463,
+      "q": 454,
+      "rows": 104638
+    },
+    {
+      "computed_genus_zero": 1178,
+      "computed_not_expected": 0,
+      "expected_bbl": 1178,
+      "expected_not_computed": 0,
+      "intersection": 1178,
+      "presentations": 295,
+      "q": 455,
+      "rows": 84960
+    },
+    {
+      "computed_genus_zero": 748,
+      "computed_not_expected": 0,
+      "expected_bbl": 748,
+      "expected_not_computed": 0,
+      "intersection": 748,
+      "presentations": 224,
+      "q": 456,
+      "rows": 32256
+    },
+    {
+      "computed_genus_zero": 1866,
+      "computed_not_expected": 0,
+      "expected_bbl": 1866,
+      "expected_not_computed": 0,
+      "intersection": 1866,
+      "presentations": 467,
+      "q": 457,
+      "rows": 212952
+    },
+    {
+      "computed_genus_zero": 1416,
+      "computed_not_expected": 0,
+      "expected_bbl": 1416,
+      "expected_not_computed": 0,
+      "intersection": 1416,
+      "presentations": 469,
+      "q": 458,
+      "rows": 106932
+    },
+    {
+      "computed_genus_zero": 1174,
+      "computed_not_expected": 0,
+      "expected_bbl": 1174,
+      "expected_not_computed": 0,
+      "intersection": 1174,
+      "presentations": 294,
+      "q": 459,
+      "rows": 84672
+    },
+    {
+      "computed_genus_zero": 904,
+      "computed_not_expected": 0,
+      "expected_bbl": 904,
+      "expected_not_computed": 0,
+      "intersection": 904,
+      "presentations": 271,
+      "q": 460,
+      "rows": 47696
+    },
+    {
+      "computed_genus_zero": 1890,
+      "computed_not_expected": 0,
+      "expected_bbl": 1890,
+      "expected_not_computed": 0,
+      "intersection": 1890,
+      "presentations": 473,
+      "q": 461,
+      "rows": 217580
+    },
+    {
+      "computed_genus_zero": 740,
+      "computed_not_expected": 0,
+      "expected_bbl": 740,
+      "expected_not_computed": 0,
+      "intersection": 740,
+      "presentations": 246,
+      "q": 462,
+      "rows": 29520
+    },
+    {
+      "computed_genus_zero": 1906,
+      "computed_not_expected": 0,
+      "expected_bbl": 1906,
+      "expected_not_computed": 0,
+      "intersection": 1906,
+      "presentations": 477,
+      "q": 463,
+      "rows": 220374
+    },
+    {
+      "computed_genus_zero": 1152,
+      "computed_not_expected": 0,
+      "expected_bbl": 1152,
+      "expected_not_computed": 0,
+      "intersection": 1152,
+      "presentations": 345,
+      "q": 464,
+      "rows": 77280
+    },
+    {
+      "computed_genus_zero": 982,
+      "computed_not_expected": 0,
+      "expected_bbl": 982,
+      "expected_not_computed": 0,
+      "intersection": 982,
+      "presentations": 246,
+      "q": 465,
+      "rows": 59040
+    },
+    {
+      "computed_genus_zero": 1432,
+      "computed_not_expected": 0,
+      "expected_bbl": 1432,
+      "expected_not_computed": 0,
+      "intersection": 1432,
+      "presentations": 475,
+      "q": 466,
+      "rows": 110200
+    },
+    {
+      "computed_genus_zero": 1914,
+      "computed_not_expected": 0,
+      "expected_bbl": 1914,
+      "expected_not_computed": 0,
+      "intersection": 1914,
+      "presentations": 479,
+      "q": 467,
+      "rows": 223214
+    },
+    {
+      "computed_genus_zero": 748,
+      "computed_not_expected": 0,
+      "expected_bbl": 748,
+      "expected_not_computed": 0,
+      "intersection": 748,
+      "presentations": 224,
+      "q": 468,
+      "rows": 32256
+    },
+    {
+      "computed_genus_zero": 1618,
+      "computed_not_expected": 0,
+      "expected_bbl": 1618,
+      "expected_not_computed": 0,
+      "intersection": 1618,
+      "presentations": 405,
+      "q": 469,
+      "rows": 160380
+    },
+    {
+      "computed_genus_zero": 1120,
+      "computed_not_expected": 0,
+      "expected_bbl": 1120,
+      "expected_not_computed": 0,
+      "intersection": 1120,
+      "presentations": 373,
+      "q": 470,
+      "rows": 68632
+    },
+    {
+      "computed_genus_zero": 1270,
+      "computed_not_expected": 0,
+      "expected_bbl": 1270,
+      "expected_not_computed": 0,
+      "intersection": 1270,
+      "presentations": 318,
+      "q": 471,
+      "rows": 99216
+    },
+    {
+      "computed_genus_zero": 1232,
+      "computed_not_expected": 0,
+      "expected_bbl": 1232,
+      "expected_not_computed": 0,
+      "intersection": 1232,
+      "presentations": 367,
+      "q": 472,
+      "rows": 85144
+    },
+    {
+      "computed_genus_zero": 1746,
+      "computed_not_expected": 0,
+      "expected_bbl": 1746,
+      "expected_not_computed": 0,
+      "intersection": 1746,
+      "presentations": 437,
+      "q": 473,
+      "rows": 183540
+    },
+    {
+      "computed_genus_zero": 964,
+      "computed_not_expected": 0,
+      "expected_bbl": 964,
+      "expected_not_computed": 0,
+      "intersection": 964,
+      "presentations": 320,
+      "q": 474,
+      "rows": 49920
+    },
+    {
+      "computed_genus_zero": 1474,
+      "computed_not_expected": 0,
+      "expected_bbl": 1474,
+      "expected_not_computed": 0,
+      "intersection": 1474,
+      "presentations": 369,
+      "q": 475,
+      "rows": 132840
+    },
+    {
+      "computed_genus_zero": 992,
+      "computed_not_expected": 0,
+      "expected_bbl": 992,
+      "expected_not_computed": 0,
+      "intersection": 992,
+      "presentations": 297,
+      "q": 476,
+      "rows": 57024
+    },
+    {
+      "computed_genus_zero": 1270,
+      "computed_not_expected": 0,
+      "expected_bbl": 1270,
+      "expected_not_computed": 0,
+      "intersection": 1270,
+      "presentations": 318,
+      "q": 477,
+      "rows": 99216
+    },
+    {
+      "computed_genus_zero": 1468,
+      "computed_not_expected": 0,
+      "expected_bbl": 1468,
+      "expected_not_computed": 0,
+      "intersection": 1468,
+      "presentations": 487,
+      "q": 478,
+      "rows": 115906
+    },
+    {
+      "computed_genus_zero": 1954,
+      "computed_not_expected": 0,
+      "expected_bbl": 1954,
+      "expected_not_computed": 0,
+      "intersection": 1954,
+      "presentations": 489,
+      "q": 479,
+      "rows": 233742
+    },
+    {
+      "computed_genus_zero": 656,
+      "computed_not_expected": 0,
+      "expected_bbl": 656,
+      "expected_not_computed": 0,
+      "intersection": 656,
+      "presentations": 197,
+      "q": 480,
+      "rows": 25216
+    },
+    {
+      "computed_genus_zero": 1758,
+      "computed_not_expected": 0,
+      "expected_bbl": 1758,
+      "expected_not_computed": 0,
+      "intersection": 1758,
+      "presentations": 440,
+      "q": 481,
+      "rows": 190080
+    },
+    {
+      "computed_genus_zero": 1488,
+      "computed_not_expected": 0,
+      "expected_bbl": 1488,
+      "expected_not_computed": 0,
+      "intersection": 1488,
+      "presentations": 493,
+      "q": 482,
+      "rows": 118320
+    },
+    {
+      "computed_genus_zero": 1074,
+      "computed_not_expected": 0,
+      "expected_bbl": 1074,
+      "expected_not_computed": 0,
+      "intersection": 1074,
+      "presentations": 269,
+      "q": 483,
+      "rows": 71016
+    },
+    {
+      "computed_genus_zero": 1148,
+      "computed_not_expected": 0,
+      "expected_bbl": 1148,
+      "expected_not_computed": 0,
+      "intersection": 1148,
+      "presentations": 343,
+      "q": 484,
+      "rows": 75460
+    },
+    {
+      "computed_genus_zero": 1582,
+      "computed_not_expected": 0,
+      "expected_bbl": 1582,
+      "expected_not_computed": 0,
+      "intersection": 1582,
+      "presentations": 396,
+      "q": 485,
+      "rows": 152064
+    },
+    {
+      "computed_genus_zero": 984,
+      "computed_not_expected": 0,
+      "expected_bbl": 984,
+      "expected_not_computed": 0,
+      "intersection": 984,
+      "presentations": 328,
+      "q": 486,
+      "rows": 53136
+    },
+    {
+      "computed_genus_zero": 2010,
+      "computed_not_expected": 0,
+      "expected_bbl": 2010,
+      "expected_not_computed": 0,
+      "intersection": 2010,
+      "presentations": 503,
+      "q": 487,
+      "rows": 244458
+    },
+    {
+      "computed_genus_zero": 1240,
+      "computed_not_expected": 0,
+      "expected_bbl": 1240,
+      "expected_not_computed": 0,
+      "intersection": 1240,
+      "presentations": 371,
+      "q": 488,
+      "rows": 89040
+    },
+    {
+      "computed_genus_zero": 1326,
+      "computed_not_expected": 0,
+      "expected_bbl": 1326,
+      "expected_not_computed": 0,
+      "intersection": 1326,
+      "presentations": 332,
+      "q": 489,
+      "rows": 107568
+    },
+    {
+      "computed_genus_zero": 1032,
+      "computed_not_expected": 0,
+      "expected_bbl": 1032,
+      "expected_not_computed": 0,
+      "intersection": 1032,
+      "presentations": 343,
+      "q": 490,
+      "rows": 57624
+    },
+    {
+      "computed_genus_zero": 2002,
+      "computed_not_expected": 0,
+      "expected_bbl": 2002,
+      "expected_not_computed": 0,
+      "intersection": 2002,
+      "presentations": 501,
+      "q": 491,
+      "rows": 245490
+    },
+    {
+      "computed_genus_zero": 812,
+      "computed_not_expected": 0,
+      "expected_bbl": 812,
+      "expected_not_computed": 0,
+      "intersection": 812,
+      "presentations": 244,
+      "q": 492,
+      "rows": 39040
+    },
+    {
+      "computed_genus_zero": 1842,
+      "computed_not_expected": 0,
+      "expected_bbl": 1842,
+      "expected_not_computed": 0,
+      "intersection": 1842,
+      "presentations": 461,
+      "q": 493,
+      "rows": 206528
+    },
+    {
+      "computed_genus_zero": 1368,
+      "computed_not_expected": 0,
+      "expected_bbl": 1368,
+      "expected_not_computed": 0,
+      "intersection": 1368,
+      "presentations": 451,
+      "q": 494,
+      "rows": 97416
+    },
+    {
+      "computed_genus_zero": 982,
+      "computed_not_expected": 0,
+      "expected_bbl": 982,
+      "expected_not_computed": 0,
+      "intersection": 982,
+      "presentations": 246,
+      "q": 495,
+      "rows": 59040
+    },
+    {
+      "computed_genus_zero": 1248,
+      "computed_not_expected": 0,
+      "expected_bbl": 1248,
+      "expected_not_computed": 0,
+      "intersection": 1248,
+      "presentations": 373,
+      "q": 496,
+      "rows": 89520
+    },
+    {
+      "computed_genus_zero": 1706,
+      "computed_not_expected": 0,
+      "expected_bbl": 1706,
+      "expected_not_computed": 0,
+      "intersection": 1706,
+      "presentations": 427,
+      "q": 497,
+      "rows": 179340
+    },
+    {
+      "computed_genus_zero": 996,
+      "computed_not_expected": 0,
+      "expected_bbl": 996,
+      "expected_not_computed": 0,
+      "intersection": 996,
+      "presentations": 332,
+      "q": 498,
+      "rows": 54448
+    },
+    {
+      "computed_genus_zero": 2034,
+      "computed_not_expected": 0,
+      "expected_bbl": 2034,
+      "expected_not_computed": 0,
+      "intersection": 2034,
+      "presentations": 509,
+      "q": 499,
+      "rows": 253482
+    },
+    {
+      "computed_genus_zero": 1048,
+      "computed_not_expected": 0,
+      "expected_bbl": 1048,
+      "expected_not_computed": 0,
+      "intersection": 1048,
+      "presentations": 313,
+      "q": 500,
+      "rows": 62600
+    },
+    {
+      "computed_genus_zero": 1374,
+      "computed_not_expected": 0,
+      "expected_bbl": 1374,
+      "expected_not_computed": 0,
+      "intersection": 1374,
+      "presentations": 344,
+      "q": 501,
+      "rows": 114208
+    },
+    {
+      "computed_genus_zero": 1532,
+      "computed_not_expected": 0,
+      "expected_bbl": 1532,
+      "expected_not_computed": 0,
+      "intersection": 1532,
+      "presentations": 509,
+      "q": 502,
+      "rows": 127250
+    },
+    {
+      "computed_genus_zero": 2058,
+      "computed_not_expected": 0,
+      "expected_bbl": 2058,
+      "expected_not_computed": 0,
+      "intersection": 2058,
+      "presentations": 515,
+      "q": 503,
+      "rows": 258530
+    },
+    {
+      "computed_genus_zero": 732,
+      "computed_not_expected": 0,
+      "expected_bbl": 732,
+      "expected_not_computed": 0,
+      "intersection": 732,
+      "presentations": 220,
+      "q": 504,
+      "rows": 31680
+    },
+    {
+      "computed_genus_zero": 1634,
+      "computed_not_expected": 0,
+      "expected_bbl": 1634,
+      "expected_not_computed": 0,
+      "intersection": 1634,
+      "presentations": 409,
+      "q": 505,
+      "rows": 163600
+    },
+    {
+      "computed_genus_zero": 1344,
+      "computed_not_expected": 0,
+      "expected_bbl": 1344,
+      "expected_not_computed": 0,
+      "intersection": 1344,
+      "presentations": 447,
+      "q": 506,
+      "rows": 98340
+    },
+    {
+      "computed_genus_zero": 1286,
+      "computed_not_expected": 0,
+      "expected_bbl": 1286,
+      "expected_not_computed": 0,
+      "intersection": 1286,
+      "presentations": 322,
+      "q": 507,
+      "rows": 100464
+    },
+    {
+      "computed_genus_zero": 1308,
+      "computed_not_expected": 0,
+      "expected_bbl": 1308,
+      "expected_not_computed": 0,
+      "intersection": 1308,
+      "presentations": 391,
+      "q": 508,
+      "rows": 98532
+    },
+    {
+      "computed_genus_zero": 2074,
+      "computed_not_expected": 0,
+      "expected_bbl": 2074,
+      "expected_not_computed": 0,
+      "intersection": 2074,
+      "presentations": 519,
+      "q": 509,
+      "rows": 263652
+    },
+    {
+      "computed_genus_zero": 772,
+      "computed_not_expected": 0,
+      "expected_bbl": 772,
+      "expected_not_computed": 0,
+      "intersection": 772,
+      "presentations": 258,
+      "q": 510,
+      "rows": 33024
+    },
+    {
+      "computed_genus_zero": 1774,
+      "computed_not_expected": 0,
+      "expected_bbl": 1774,
+      "expected_not_computed": 0,
+      "intersection": 1774,
+      "presentations": 444,
+      "q": 511,
+      "rows": 191808
+    },
+    {
+      "computed_genus_zero": 1344,
+      "computed_not_expected": 0,
+      "expected_bbl": 1344,
+      "expected_not_computed": 0,
+      "intersection": 1344,
+      "presentations": 401,
+      "q": 512,
+      "rows": 102656
+    },
+    {
+      "computed_genus_zero": 1322,
+      "computed_not_expected": 0,
+      "expected_bbl": 1322,
+      "expected_not_computed": 0,
+      "intersection": 1322,
+      "presentations": 331,
+      "q": 513,
+      "rows": 107244
+    },
+    {
+      "computed_genus_zero": 1592,
+      "computed_not_expected": 0,
+      "expected_bbl": 1592,
+      "expected_not_computed": 0,
+      "intersection": 1592,
+      "presentations": 527,
+      "q": 514,
+      "rows": 134912
+    },
+    {
+      "computed_genus_zero": 1666,
+      "computed_not_expected": 0,
+      "expected_bbl": 1666,
+      "expected_not_computed": 0,
+      "intersection": 1666,
+      "presentations": 417,
+      "q": 515,
+      "rows": 170136
+    },
+    {
+      "computed_genus_zero": 852,
+      "computed_not_expected": 0,
+      "expected_bbl": 852,
+      "expected_not_computed": 0,
+      "intersection": 852,
+      "presentations": 256,
+      "q": 516,
+      "rows": 43008
+    },
+    {
+      "computed_genus_zero": 1898,
+      "computed_not_expected": 0,
+      "expected_bbl": 1898,
+      "expected_not_computed": 0,
+      "intersection": 1898,
+      "presentations": 475,
+      "q": 517,
+      "rows": 218500
+    },
+    {
+      "computed_genus_zero": 1352,
+      "computed_not_expected": 0,
+      "expected_bbl": 1352,
+      "expected_not_computed": 0,
+      "intersection": 1352,
+      "presentations": 447,
+      "q": 518,
+      "rows": 96552
+    },
+    {
+      "computed_genus_zero": 1406,
+      "computed_not_expected": 0,
+      "expected_bbl": 1406,
+      "expected_not_computed": 0,
+      "intersection": 1406,
+      "presentations": 352,
+      "q": 519,
+      "rows": 121088
+    },
+    {
+      "computed_genus_zero": 968,
+      "computed_not_expected": 0,
+      "expected_bbl": 968,
+      "expected_not_computed": 0,
+      "intersection": 968,
+      "presentations": 291,
+      "q": 520,
+      "rows": 55872
+    },
+    {
+      "computed_genus_zero": 2122,
+      "computed_not_expected": 0,
+      "expected_bbl": 2122,
+      "expected_not_computed": 0,
+      "intersection": 2122,
+      "presentations": 531,
+      "q": 521,
+      "rows": 276120
+    },
+    {
+      "computed_genus_zero": 1036,
+      "computed_not_expected": 0,
+      "expected_bbl": 1036,
+      "expected_not_computed": 0,
+      "intersection": 1036,
+      "presentations": 344,
+      "q": 522,
+      "rows": 57792
+    },
+    {
+      "computed_genus_zero": 2138,
+      "computed_not_expected": 0,
+      "expected_bbl": 2138,
+      "expected_not_computed": 0,
+      "intersection": 2138,
+      "presentations": 535,
+      "q": 523,
+      "rows": 279270
+    },
+    {
+      "computed_genus_zero": 1340,
+      "computed_not_expected": 0,
+      "expected_bbl": 1340,
+      "expected_not_computed": 0,
+      "intersection": 1340,
+      "presentations": 401,
+      "q": 524,
+      "rows": 104260
+    },
+    {
+      "computed_genus_zero": 966,
+      "computed_not_expected": 0,
+      "expected_bbl": 966,
+      "expected_not_computed": 0,
+      "intersection": 966,
+      "presentations": 242,
+      "q": 525,
+      "rows": 58080
+    },
+    {
+      "computed_genus_zero": 1644,
+      "computed_not_expected": 0,
+      "expected_bbl": 1644,
+      "expected_not_computed": 0,
+      "intersection": 1644,
+      "presentations": 543,
+      "q": 526,
+      "rows": 142266
+    },
+    {
+      "computed_genus_zero": 1970,
+      "computed_not_expected": 0,
+      "expected_bbl": 1970,
+      "expected_not_computed": 0,
+      "intersection": 1970,
+      "presentations": 493,
+      "q": 527,
+      "rows": 236640
+    },
+    {
+      "computed_genus_zero": 824,
+      "computed_not_expected": 0,
+      "expected_bbl": 824,
+      "expected_not_computed": 0,
+      "intersection": 824,
+      "presentations": 247,
+      "q": 528,
+      "rows": 39520
+    },
+    {
+      "computed_genus_zero": 2058,
+      "computed_not_expected": 0,
+      "expected_bbl": 2058,
+      "expected_not_computed": 0,
+      "intersection": 2058,
+      "presentations": 515,
+      "q": 529,
+      "rows": 260590
+    },
+    {
+      "computed_genus_zero": 1268,
+      "computed_not_expected": 0,
+      "expected_bbl": 1268,
+      "expected_not_computed": 0,
+      "intersection": 1268,
+      "presentations": 422,
+      "q": 530,
+      "rows": 87776
+    },
+    {
+      "computed_genus_zero": 1414,
+      "computed_not_expected": 0,
+      "expected_bbl": 1414,
+      "expected_not_computed": 0,
+      "intersection": 1414,
+      "presentations": 354,
+      "q": 531,
+      "rows": 123192
+    },
+    {
+      "computed_genus_zero": 1120,
+      "computed_not_expected": 0,
+      "expected_bbl": 1120,
+      "expected_not_computed": 0,
+      "intersection": 1120,
+      "presentations": 335,
+      "q": 532,
+      "rows": 72360
+    },
+    {
+      "computed_genus_zero": 1970,
+      "computed_not_expected": 0,
+      "expected_bbl": 1970,
+      "expected_not_computed": 0,
+      "intersection": 1970,
+      "presentations": 493,
+      "q": 533,
+      "rows": 236640
+    },
+    {
+      "computed_genus_zero": 1076,
+      "computed_not_expected": 0,
+      "expected_bbl": 1076,
+      "expected_not_computed": 0,
+      "intersection": 1076,
+      "presentations": 358,
+      "q": 534,
+      "rows": 63008
+    },
+    {
+      "computed_genus_zero": 1746,
+      "computed_not_expected": 0,
+      "expected_bbl": 1746,
+      "expected_not_computed": 0,
+      "intersection": 1746,
+      "presentations": 437,
+      "q": 535,
+      "rows": 185288
+    },
+    {
+      "computed_genus_zero": 1376,
+      "computed_not_expected": 0,
+      "expected_bbl": 1376,
+      "expected_not_computed": 0,
+      "intersection": 1376,
+      "presentations": 411,
+      "q": 536,
+      "rows": 108504
+    },
+    {
+      "computed_genus_zero": 1454,
+      "computed_not_expected": 0,
+      "expected_bbl": 1454,
+      "expected_not_computed": 0,
+      "intersection": 1454,
+      "presentations": 364,
+      "q": 537,
+      "rows": 129584
+    },
+    {
+      "computed_genus_zero": 1648,
+      "computed_not_expected": 0,
+      "expected_bbl": 1648,
+      "expected_not_computed": 0,
+      "intersection": 1648,
+      "presentations": 547,
+      "q": 538,
+      "rows": 146596
+    },
+    {
+      "computed_genus_zero": 1722,
+      "computed_not_expected": 0,
+      "expected_bbl": 1722,
+      "expected_not_computed": 0,
+      "intersection": 1722,
+      "presentations": 431,
+      "q": 539,
+      "rows": 181020
+    },
+    {
+      "computed_genus_zero": 748,
+      "computed_not_expected": 0,
+      "expected_bbl": 748,
+      "expected_not_computed": 0,
+      "intersection": 748,
+      "presentations": 224,
+      "q": 540,
+      "rows": 32256
+    },
+    {
+      "computed_genus_zero": 2210,
+      "computed_not_expected": 0,
+      "expected_bbl": 2210,
+      "expected_not_computed": 0,
+      "intersection": 2210,
+      "presentations": 553,
+      "q": 541,
+      "rows": 298620
+    },
+    {
+      "computed_genus_zero": 1660,
+      "computed_not_expected": 0,
+      "expected_bbl": 1660,
+      "expected_not_computed": 0,
+      "intersection": 1660,
+      "presentations": 551,
+      "q": 542,
+      "rows": 148770
+    },
+    {
+      "computed_genus_zero": 1470,
+      "computed_not_expected": 0,
+      "expected_bbl": 1470,
+      "expected_not_computed": 0,
+      "intersection": 1470,
+      "presentations": 368,
+      "q": 543,
+      "rows": 132480
+    },
+    {
+      "computed_genus_zero": 1316,
+      "computed_not_expected": 0,
+      "expected_bbl": 1316,
+      "expected_not_computed": 0,
+      "intersection": 1316,
+      "presentations": 394,
+      "q": 544,
+      "rows": 100864
+    },
+    {
+      "computed_genus_zero": 1782,
+      "computed_not_expected": 0,
+      "expected_bbl": 1782,
+      "expected_not_computed": 0,
+      "intersection": 1782,
+      "presentations": 446,
+      "q": 545,
+      "rows": 192672
+    },
+    {
+      "computed_genus_zero": 868,
+      "computed_not_expected": 0,
+      "expected_bbl": 868,
+      "expected_not_computed": 0,
+      "intersection": 868,
+      "presentations": 290,
+      "q": 546,
+      "rows": 41760
+    },
+    {
+      "computed_genus_zero": 2234,
+      "computed_not_expected": 0,
+      "expected_bbl": 2234,
+      "expected_not_computed": 0,
+      "intersection": 2234,
+      "presentations": 559,
+      "q": 547,
+      "rows": 305214
+    },
+    {
+      "computed_genus_zero": 1392,
+      "computed_not_expected": 0,
+      "expected_bbl": 1392,
+      "expected_not_computed": 0,
+      "intersection": 1392,
+      "presentations": 417,
+      "q": 548,
+      "rows": 113424
+    },
+    {
+      "computed_genus_zero": 1470,
+      "computed_not_expected": 0,
+      "expected_bbl": 1470,
+      "expected_not_computed": 0,
+      "intersection": 1470,
+      "presentations": 368,
+      "q": 549,
+      "rows": 132480
+    },
+    {
+      "computed_genus_zero": 1232,
+      "computed_not_expected": 0,
+      "expected_bbl": 1232,
+      "expected_not_computed": 0,
+      "intersection": 1232,
+      "presentations": 409,
+      "q": 550,
+      "rows": 81800
+    },
+    {
+      "computed_genus_zero": 2050,
+      "computed_not_expected": 0,
+      "expected_bbl": 2050,
+      "expected_not_computed": 0,
+      "intersection": 2050,
+      "presentations": 513,
+      "q": 551,
+      "rows": 258552
+    },
+    {
+      "computed_genus_zero": 916,
+      "computed_not_expected": 0,
+      "expected_bbl": 916,
+      "expected_not_computed": 0,
+      "intersection": 916,
+      "presentations": 274,
+      "q": 552,
+      "rows": 48224
+    },
+    {
+      "computed_genus_zero": 1930,
+      "computed_not_expected": 0,
+      "expected_bbl": 1930,
+      "expected_not_computed": 0,
+      "intersection": 1930,
+      "presentations": 483,
+      "q": 553,
+      "rows": 226044
+    },
+    {
+      "computed_genus_zero": 1704,
+      "computed_not_expected": 0,
+      "expected_bbl": 1704,
+      "expected_not_computed": 0,
+      "intersection": 1704,
+      "presentations": 565,
+      "q": 554,
+      "rows": 155940
+    },
+    {
+      "computed_genus_zero": 1166,
+      "computed_not_expected": 0,
+      "expected_bbl": 1166,
+      "expected_not_computed": 0,
+      "intersection": 1166,
+      "presentations": 292,
+      "q": 555,
+      "rows": 84096
+    },
+    {
+      "computed_genus_zero": 1428,
+      "computed_not_expected": 0,
+      "expected_bbl": 1428,
+      "expected_not_computed": 0,
+      "intersection": 1428,
+      "presentations": 427,
+      "q": 556,
+      "rows": 117852
+    },
+    {
+      "computed_genus_zero": 2274,
+      "computed_not_expected": 0,
+      "expected_bbl": 2274,
+      "expected_not_computed": 0,
+      "intersection": 2274,
+      "presentations": 569,
+      "q": 557,
+      "rows": 316364
+    },
+    {
+      "computed_genus_zero": 1092,
+      "computed_not_expected": 0,
+      "expected_bbl": 1092,
+      "expected_not_computed": 0,
+      "intersection": 1092,
+      "presentations": 364,
+      "q": 558,
+      "rows": 65520
+    },
+    {
+      "computed_genus_zero": 2050,
+      "computed_not_expected": 0,
+      "expected_bbl": 2050,
+      "expected_not_computed": 0,
+      "intersection": 2050,
+      "presentations": 513,
+      "q": 559,
+      "rows": 258552
+    },
+    {
+      "computed_genus_zero": 1000,
+      "computed_not_expected": 0,
+      "expected_bbl": 1000,
+      "expected_not_computed": 0,
+      "intersection": 1000,
+      "presentations": 299,
+      "q": 560,
+      "rows": 57408
+    },
+    {
+      "computed_genus_zero": 1302,
+      "computed_not_expected": 0,
+      "expected_bbl": 1302,
+      "expected_not_computed": 0,
+      "intersection": 1302,
+      "presentations": 326,
+      "q": 561,
+      "rows": 104320
+    },
+    {
+      "computed_genus_zero": 1736,
+      "computed_not_expected": 0,
+      "expected_bbl": 1736,
+      "expected_not_computed": 0,
+      "intersection": 1736,
+      "presentations": 575,
+      "q": 562,
+      "rows": 161000
+    },
+    {
+      "computed_genus_zero": 2314,
+      "computed_not_expected": 0,
+      "expected_bbl": 2314,
+      "expected_not_computed": 0,
+      "intersection": 2314,
+      "presentations": 579,
+      "q": 563,
+      "rows": 325398
+    },
+    {
+      "computed_genus_zero": 940,
+      "computed_not_expected": 0,
+      "expected_bbl": 940,
+      "expected_not_computed": 0,
+      "intersection": 940,
+      "presentations": 282,
+      "q": 564,
+      "rows": 51888
+    },
+    {
+      "computed_genus_zero": 1826,
+      "computed_not_expected": 0,
+      "expected_bbl": 1826,
+      "expected_not_computed": 0,
+      "intersection": 1826,
+      "presentations": 457,
+      "q": 565,
+      "rows": 204736
+    },
+    {
+      "computed_genus_zero": 1756,
+      "computed_not_expected": 0,
+      "expected_bbl": 1756,
+      "expected_not_computed": 0,
+      "intersection": 1756,
+      "presentations": 581,
+      "q": 566,
+      "rows": 163842
+    },
+    {
+      "computed_genus_zero": 1318,
+      "computed_not_expected": 0,
+      "expected_bbl": 1318,
+      "expected_not_computed": 0,
+      "intersection": 1318,
+      "presentations": 330,
+      "q": 567,
+      "rows": 106920
+    },
+    {
+      "computed_genus_zero": 1440,
+      "computed_not_expected": 0,
+      "expected_bbl": 1440,
+      "expected_not_computed": 0,
+      "intersection": 1440,
+      "presentations": 431,
+      "q": 568,
+      "rows": 120680
+    },
+    {
+      "computed_genus_zero": 2314,
+      "computed_not_expected": 0,
+      "expected_bbl": 2314,
+      "expected_not_computed": 0,
+      "intersection": 2314,
+      "presentations": 579,
+      "q": 569,
+      "rows": 328872
+    },
+    {
+      "computed_genus_zero": 876,
+      "computed_not_expected": 0,
+      "expected_bbl": 876,
+      "expected_not_computed": 0,
+      "intersection": 876,
+      "presentations": 292,
+      "q": 570,
+      "rows": 42048
+    },
+    {
+      "computed_genus_zero": 2338,
+      "computed_not_expected": 0,
+      "expected_bbl": 2338,
+      "expected_not_computed": 0,
+      "intersection": 2338,
+      "presentations": 585,
+      "q": 571,
+      "rows": 333450
+    },
+    {
+      "computed_genus_zero": 1224,
+      "computed_not_expected": 0,
+      "expected_bbl": 1224,
+      "expected_not_computed": 0,
+      "intersection": 1224,
+      "presentations": 367,
+      "q": 572,
+      "rows": 88080
+    },
+    {
+      "computed_genus_zero": 1558,
+      "computed_not_expected": 0,
+      "expected_bbl": 1558,
+      "expected_not_computed": 0,
+      "intersection": 1558,
+      "presentations": 390,
+      "q": 573,
+      "rows": 148200
+    },
+    {
+      "computed_genus_zero": 1472,
+      "computed_not_expected": 0,
+      "expected_bbl": 1472,
+      "expected_not_computed": 0,
+      "intersection": 1472,
+      "presentations": 489,
+      "q": 574,
+      "rows": 117360
+    },
+    {
+      "computed_genus_zero": 1782,
+      "computed_not_expected": 0,
+      "expected_bbl": 1782,
+      "expected_not_computed": 0,
+      "intersection": 1782,
+      "presentations": 446,
+      "q": 575,
+      "rows": 196240
+    },
+    {
+      "computed_genus_zero": 972,
+      "computed_not_expected": 0,
+      "expected_bbl": 972,
+      "expected_not_computed": 0,
+      "intersection": 972,
+      "presentations": 292,
+      "q": 576,
+      "rows": 56064
+    },
+    {
+      "computed_genus_zero": 2370,
+      "computed_not_expected": 0,
+      "expected_bbl": 2370,
+      "expected_not_computed": 0,
+      "intersection": 2370,
+      "presentations": 593,
+      "q": 577,
+      "rows": 341568
+    },
+    {
+      "computed_genus_zero": 1696,
+      "computed_not_expected": 0,
+      "expected_bbl": 1696,
+      "expected_not_computed": 0,
+      "intersection": 1696,
+      "presentations": 561,
+      "q": 578,
+      "rows": 152592
+    },
+    {
+      "computed_genus_zero": 1570,
+      "computed_not_expected": 0,
+      "expected_bbl": 1570,
+      "expected_not_computed": 0,
+      "intersection": 1570,
+      "presentations": 393,
+      "q": 579,
+      "rows": 150912
+    },
+    {
+      "computed_genus_zero": 1160,
+      "computed_not_expected": 0,
+      "expected_bbl": 1160,
+      "expected_not_computed": 0,
+      "intersection": 1160,
+      "presentations": 347,
+      "q": 580,
+      "rows": 77728
+    },
+    {
+      "computed_genus_zero": 2010,
+      "computed_not_expected": 0,
+      "expected_bbl": 2010,
+      "expected_not_computed": 0,
+      "intersection": 2010,
+      "presentations": 503,
+      "q": 581,
+      "rows": 247476
+    },
+    {
+      "computed_genus_zero": 1172,
+      "computed_not_expected": 0,
+      "expected_bbl": 1172,
+      "expected_not_computed": 0,
+      "intersection": 1172,
+      "presentations": 390,
+      "q": 582,
+      "rows": 74880
+    },
+    {
+      "computed_genus_zero": 2106,
+      "computed_not_expected": 0,
+      "expected_bbl": 2106,
+      "expected_not_computed": 0,
+      "intersection": 2106,
+      "presentations": 527,
+      "q": 583,
+      "rows": 274040
+    },
+    {
+      "computed_genus_zero": 1496,
+      "computed_not_expected": 0,
+      "expected_bbl": 1496,
+      "expected_not_computed": 0,
+      "intersection": 1496,
+      "presentations": 447,
+      "q": 584,
+      "rows": 128736
+    },
+    {
+      "computed_genus_zero": 1166,
+      "computed_not_expected": 0,
+      "expected_bbl": 1166,
+      "expected_not_computed": 0,
+      "intersection": 1166,
+      "presentations": 292,
+      "q": 585,
+      "rows": 84096
+    },
+    {
+      "computed_genus_zero": 1808,
+      "computed_not_expected": 0,
+      "expected_bbl": 1808,
+      "expected_not_computed": 0,
+      "intersection": 1808,
+      "presentations": 599,
+      "q": 586,
+      "rows": 174908
+    },
+    {
+      "computed_genus_zero": 2402,
+      "computed_not_expected": 0,
+      "expected_bbl": 2402,
+      "expected_not_computed": 0,
+      "intersection": 2402,
+      "presentations": 601,
+      "q": 587,
+      "rows": 352186
+    },
+    {
+      "computed_genus_zero": 868,
+      "computed_not_expected": 0,
+      "expected_bbl": 868,
+      "expected_not_computed": 0,
+      "intersection": 868,
+      "presentations": 260,
+      "q": 588,
+      "rows": 43680
+    },
+    {
+      "computed_genus_zero": 2210,
+      "computed_not_expected": 0,
+      "expected_bbl": 2210,
+      "expected_not_computed": 0,
+      "intersection": 2210,
+      "presentations": 553,
+      "q": 589,
+      "rows": 298620
+    },
+    {
+      "computed_genus_zero": 1416,
+      "computed_not_expected": 0,
+      "expected_bbl": 1416,
+      "expected_not_computed": 0,
+      "intersection": 1416,
+      "presentations": 471,
+      "q": 590,
+      "rows": 109272
+    },
+    {
+      "computed_genus_zero": 1598,
+      "computed_not_expected": 0,
+      "expected_bbl": 1598,
+      "expected_not_computed": 0,
+      "intersection": 1598,
+      "presentations": 400,
+      "q": 591,
+      "rows": 156800
+    },
+    {
+      "computed_genus_zero": 1480,
+      "computed_not_expected": 0,
+      "expected_bbl": 1480,
+      "expected_not_computed": 0,
+      "intersection": 1480,
+      "presentations": 443,
+      "q": 592,
+      "rows": 127584
+    },
+    {
+      "computed_genus_zero": 2418,
+      "computed_not_expected": 0,
+      "expected_bbl": 2418,
+      "expected_not_computed": 0,
+      "intersection": 2418,
+      "presentations": 605,
+      "q": 593,
+      "rows": 358160
+    },
+    {
+      "computed_genus_zero": 1108,
+      "computed_not_expected": 0,
+      "expected_bbl": 1108,
+      "expected_not_computed": 0,
+      "intersection": 1108,
+      "presentations": 368,
+      "q": 594,
+      "rows": 66240
+    },
+    {
+      "computed_genus_zero": 1578,
+      "computed_not_expected": 0,
+      "expected_bbl": 1578,
+      "expected_not_computed": 0,
+      "intersection": 1578,
+      "presentations": 395,
+      "q": 595,
+      "rows": 151680
+    },
+    {
+      "computed_genus_zero": 1512,
+      "computed_not_expected": 0,
+      "expected_bbl": 1512,
+      "expected_not_computed": 0,
+      "intersection": 1512,
+      "presentations": 453,
+      "q": 596,
+      "rows": 134088
+    },
+    {
+      "computed_genus_zero": 1606,
+      "computed_not_expected": 0,
+      "expected_bbl": 1606,
+      "expected_not_computed": 0,
+      "intersection": 1606,
+      "presentations": 402,
+      "q": 597,
+      "rows": 159192
+    },
+    {
+      "computed_genus_zero": 1632,
+      "computed_not_expected": 0,
+      "expected_bbl": 1632,
+      "expected_not_computed": 0,
+      "intersection": 1632,
+      "presentations": 541,
+      "q": 598,
+      "rows": 142824
+    },
+    {
+      "computed_genus_zero": 2466,
+      "computed_not_expected": 0,
+      "expected_bbl": 2466,
+      "expected_not_computed": 0,
+      "intersection": 2466,
+      "presentations": 617,
+      "q": 599,
+      "rows": 368966
+    },
+    {
+      "computed_genus_zero": 804,
+      "computed_not_expected": 0,
+      "expected_bbl": 804,
+      "expected_not_computed": 0,
+      "intersection": 804,
+      "presentations": 242,
+      "q": 600,
+      "rows": 38720
+    }
+  ],
+  "q_max": 600,
+  "q_min": 2,
+  "status": "complete",
+  "verified_at": "2026-11-04T05:35:48.228309+00:00"
+}
