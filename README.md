@@ -48,12 +48,12 @@ full audit trail.
 
 The positive-presentation generators are:
 
-| Paper case and hypotheses | $m$ | BBL $c$ |
+| Paper case and hypotheses | m | BBL c |
 |---|:---:|---|
-| Case 1: $\gcd(d,q)=1$<br>$1\le d\le q$ | $dq+1$ | $\pm1,\pm d$ |
-| Case 1: $\gcd(d,q)=2$<br>$1\le d\le q$ | $dq+1$ | $\pm1$ |
-| Case 2: $2q+\epsilon=nd$<br>$d,n\ge3$ odd | $d(q-\epsilon)$ | $\pm1,\pm d$ |
-| Case 3: $q-\epsilon=nd$<br>$d\ge3$ odd, $n>1$ | $d(q-\epsilon)$ | $\pm1,\pm d$<br>$\pm2$ if $n=2$ |
+| Case 1: `gcd(d,q)=1`<br>`1 ≤ d ≤ q` | `dq+1` | `±1, ±d` |
+| Case 1: `gcd(d,q)=2`<br>`1 ≤ d ≤ q` | `dq+1` | `±1` |
+| Case 2: `2q+ε=nd`<br>`d,n ≥ 3` odd | `d(q−ε)` | `±1, ±d` |
+| Case 3: `q−ε=nd`<br>`d ≥ 3` odd, `n > 1` | `d(q−ε)` | `±1, ±d`<br>`±2` if `n=2` |
 
 Both signs $\epsilon=\pm1$ are used. The presentation index preserves every
 family row and every induced coordinate map; the extrema table is deduplicated
@@ -142,6 +142,11 @@ g0sv inspect --output release --q 5 --m 6 --c 1
 ```
 
 ## Release layout
+
+Download the complete $2\le q\le600$ dataset from the
+[GitHub data release](https://github.com/shiyu-liang-math/Genus_Zero_Simple_Knots_Verifier/releases/tag/dataset-q2-q600).
+The archive contains all 599 extrema partitions, the presentation index,
+verification reports, manifest, run state, and CC0 license.
 
 - `release/extrema/q=<q>/part-00000.parquet`: Zstandard-compressed per-knot
   extrema, partitioned by $q$.
