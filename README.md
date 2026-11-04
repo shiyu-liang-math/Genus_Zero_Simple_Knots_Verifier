@@ -48,12 +48,12 @@ full audit trail.
 
 The positive-presentation generators are:
 
-| Paper case | Lens-space parameter $m$ | Admissible parameters | Direct BBL contribution |
-|---|---:|---|---|
-| 1, gcd one | $dq+1$ | $1\le d\le q$, $\gcd(d,q)=1$ | $\pm1,\pm d$ |
-| 1, gcd two | $dq+1$ | $1\le d\le q$, $\gcd(d,q)=2$ | $\pm1$ |
-| 2 | $d(q-\epsilon)$ | $2q+\epsilon=nd$, odd $d,n\ge3$ | $\pm1,\pm d$ |
-| 3 | $d(q-\epsilon)$ | $q-\epsilon=nd$, odd $d\ge3$, $n>1$ | $\pm1,\pm d$, also $\pm2$ for $n=2$ |
+| Paper case and hypotheses | $m$ | BBL $c$ |
+|---|:---:|---|
+| Case 1: $\gcd(d,q)=1$<br>$1\le d\le q$ | $dq+1$ | $\pm1,\pm d$ |
+| Case 1: $\gcd(d,q)=2$<br>$1\le d\le q$ | $dq+1$ | $\pm1$ |
+| Case 2: $2q+\epsilon=nd$<br>$d,n\ge3$ odd | $d(q-\epsilon)$ | $\pm1,\pm d$ |
+| Case 3: $q-\epsilon=nd$<br>$d\ge3$ odd, $n>1$ | $d(q-\epsilon)$ | $\pm1,\pm d$<br>$\pm2$ if $n=2$ |
 
 Both signs $\epsilon=\pm1$ are used. The presentation index preserves every
 family row and every induced coordinate map; the extrema table is deduplicated
