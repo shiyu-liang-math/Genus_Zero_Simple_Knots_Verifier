@@ -41,14 +41,14 @@ $L(49,18)$, with $18\equiv30^{-1}\pmod{49}$, contributes the exceptional
 $c=\pm2$ pair. Under core exchange the marked residue map is
 $c\mapsto30c\equiv2c\pmod7$, so that pair becomes
 $c=\pm3=\{3,4\}$ at $m=30$. The certified expected set there is all six
-units. See [the mathematical specification](docs/MATHEMATICAL_SPEC.md) for the
+units. See [the mathematical specification](MATHEMATICAL_SPEC.md) for the
 full audit trail.
 
 ## Lens-space families
 
 The positive-presentation generators are:
 
-| Paper case | $m$ | Admissible parameters | Direct BBL contribution |
+| Paper case | Lens-space parameter $m$ | Admissible parameters | Direct BBL contribution |
 |---|---:|---|---|
 | 1, gcd one | $dq+1$ | $1\le d\le q$, $\gcd(d,q)=1$ | $\pm1,\pm d$ |
 | 1, gcd two | $dq+1$ | $1\le d\le q$, $\gcd(d,q)=2$ | $\pm1$ |
@@ -76,15 +76,17 @@ $$
 g(x)=g(x-1)+t-q\mathbf1_S(x),\qquad1\le x\le p.
 $$
 
-The release stores the exact minimum, maximum, and first position attaining
-each over $0\le x<p$. The integer surface genus is independently derived as
+The per-knot extrema table stores the exact minimum and maximum over
+$0\le x<p$, together with attaining positions `argmin` and `argmax`. The
+implementation selects the earliest position if an extremum is attained more
+than once. The integer surface genus is independently derived as
 
 $$
-\operatorname{genus}(F)=\frac{\max g-\min g-2q+2}{2}.
+\mathrm{genus}(F)=\frac{\max g-\min g-2q+2}{2}.
 $$
 
 Its derivation and source are recorded in
-[docs/MATHEMATICAL_SPEC.md](docs/MATHEMATICAL_SPEC.md).
+[MATHEMATICAL_SPEC.md](MATHEMATICAL_SPEC.md).
 
 ## Install and test
 
@@ -112,8 +114,8 @@ writes and per-partition validation, took 455.25 seconds.
 g0sv walk --q 5 --m 6 --c 1 --engine reference
 ```
 
-This reports $m^*=21$, $\ell=5$, $t=1$, first maximum
-$g(4)=4$, first minimum $g(6)=-4$, and width $8=2q-2$.
+This reports $m^*=21$, $\ell=5$, $t=1$, unique maximum $g(4)=4$, unique
+minimum $g(6)=-4$, and width $8=2q-2$.
 Stream the complete normalized walk as CSV with `--stream`.
 
 ## Run, resume, and verify the release
