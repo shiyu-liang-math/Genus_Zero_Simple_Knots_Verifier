@@ -45,7 +45,7 @@ $$
 The verifier checks that this value is integral and nonnegative but does not
 use it to compute the width.
 
-## Precise README/paper discrepancy at q=7
+## Precise discrepancy at q=7
 
 The README's direct case-2 row for
 $(q,m,d,\epsilon,n)=(7,30,5,+1,3)$ gives only

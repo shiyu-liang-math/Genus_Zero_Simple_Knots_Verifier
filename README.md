@@ -31,7 +31,7 @@ sets modulo $q$:
 The extrema engine never consults the expected set and never stops at a width
 threshold.
 
-### Paper/README coordinate correction at q=7
+### Coordinate correction at q=7
 
 The raw case-2 table row for
 $(q,m,d,\epsilon,n)=(7,30,5,+1,3)$ supplies
