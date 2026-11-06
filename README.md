@@ -12,6 +12,8 @@ marked presentations. It found 510,740 computed genus-zero memberships and
 510,740 paper-authoritative BBL memberships, with intersection 510,740. Both
 directional set differences, both coverage differences, and the derived-column
 error set are empty. See [the compact report](release/reports/summary.md).
+For instructions on reading, querying, and exporting the released Parquet
+files, see the [dataset guide](DATASET_GUIDE.md).
 
 ## The comparison
 
@@ -147,6 +149,8 @@ Download the complete $2\le q\le600$ dataset from the
 [GitHub data release](https://github.com/shiyu-liang-math/Genus_Zero_Simple_Knots_Verifier/releases/tag/dataset-q2-q600).
 The archive contains all 599 extrema partitions, the presentation index,
 verification reports, manifest, run state, and CC0 license.
+See [DATASET_GUIDE.md](DATASET_GUIDE.md) for copy-paste queries and a complete
+column description.
 
 - `release/extrema/q=<q>/part-00000.parquet`: Zstandard-compressed per-knot
   extrema, partitioned by $q$.
