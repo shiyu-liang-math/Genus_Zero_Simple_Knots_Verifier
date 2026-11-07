@@ -33,7 +33,7 @@ corresponding `part-00000.parquet` file.
 
 ## Extrema columns
 
-Each row of an extrema Parquet file represents one order-$q$ knot class in one
+Each row of an extrema Parquet file represents one knot class of order $q$ in one
 marked presentation. The schema is:
 
 ```text

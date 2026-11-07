@@ -3,10 +3,10 @@
 Companion project to *Genus Zero Simple Knots* by Joshua Evan Greene, Shiyu
 Liang, and John Luecke (2026). The paper classifies genus-zero simple knots in
 lens spaces. This project tests the classification in the four families below
-for **every integer $2\le q\le600$**, including composite $q$. The largest
+for **every integer** $2\le q\le 600$, including composite $q$. The largest
 lens-space order in the search is $q^2=360{,}000$.
 
-**Verification status: complete for the inclusive range $2\le q\le600$.**
+**Verification status: complete** for the inclusive range $2\le q\le 600$.
 The release verifier checked 36,548,348 per-knot rows across 141,834 distinct
 marked presentations. It found 510,740 computed genus-zero memberships and
 510,740 paper-authoritative BBL memberships, with intersection 510,740. Both
@@ -37,12 +37,12 @@ threshold.
 
 The raw case-2 table row for
 $(q,m,d,\epsilon,n)=(7,30,5,+1,3)$ supplies
-$c=\pm1,\pm5=\{1,2,5,6\}$, but this is not the full paper-authoritative
+$c=\pm1,\pm5=\lbrace1,2,5,6\rbrace$, but this is not the full paper-authoritative
 union in that marking. The coincident case-3 $n=2$ presentation
 $L(49,18)$, with $18\equiv30^{-1}\pmod{49}$, contributes the exceptional
 $c=\pm2$ pair. Under core exchange the marked residue map is
-$c\mapsto30c\equiv2c\pmod7$, so that pair becomes
-$c=\pm3=\{3,4\}$ at $m=30$. The certified expected set there is all six
+$c\mapsto30c\equiv2c\pmod 7$, so that pair becomes
+$c=\pm3=\lbrace3,4\rbrace$ at $m=30$. The certified expected set there is all six
 units. See [the mathematical specification](MATHEMATICAL_SPEC.md) for the
 full audit trail.
 
@@ -63,19 +63,19 @@ on $(q,m\bmod q^2,c)$.
 
 ## Computing the extrema
 
-Put $p=q^2$, $k=cq$, and choose $m^*$ with
-$mm^*\equiv1\pmod p$. With $[x]_p$ denoting the least positive residue,
+Put $p=q^2$, $k=cq$, and choose $m^{\ast}$ with
+$mm^{\ast}\equiv1\pmod p$. With $[x]_p$ denoting the least positive residue,
 so $[0]_p=p$, define
 
 $$
-\ell=[m^*k]_p,\qquad t=\ell/q,\qquad
-S=\{[jm]_p:1\le j\le\ell\}.
+\ell=[m^{\ast}k]_p,\qquad t=\ell/q,\qquad
+S=\lbrace[jm]_p:1\le j\le\ell\rbrace.
 $$
 
 Starting at $g(0)=0$, take
 
 $$
-g(x)=g(x-1)+t-q\mathbf1_S(x),\qquad1\le x\le p.
+g(x)=g(x-1)+t-q\mathbf{1}_S(x),\qquad1\le x\le p.
 $$
 
 The per-knot extrema table stores the exact minimum and maximum over
@@ -116,7 +116,7 @@ writes and per-partition validation, took 455.25 seconds.
 g0sv walk --q 5 --m 6 --c 1 --engine reference
 ```
 
-This reports $m^*=21$, $\ell=5$, $t=1$, unique maximum $g(4)=4$, unique
+This reports $m^{\ast}=21$, $\ell=5$, $t=1$, unique maximum $g(4)=4$, unique
 minimum $g(6)=-4$, and width $8=2q-2$.
 Stream the complete normalized walk as CSV with `--stream`.
 
@@ -145,7 +145,7 @@ g0sv inspect --output release --q 5 --m 6 --c 1
 
 ## Release layout
 
-Download the complete $2\le q\le600$ dataset from the
+Download the complete $2\le q\le 600$ dataset from the
 [GitHub data release](https://github.com/shiyu-liang-math/Genus_Zero_Simple_Knots_Verifier/releases/tag/dataset-q2-q600).
 The archive contains all 599 extrema partitions, the presentation index,
 verification reports, manifest, run state, and CC0 license.
@@ -158,8 +158,8 @@ column description.
 - `release/reports/coverage.json`: missing/extra keys and column validation.
 - `release/reports/discrepancies.json`: both directional set differences with
   concrete $(q,m,c)$ records.
-- `release/reports/summary.{json,md}`: per-$q$, per-family, and deduplicated
-  totals.
+- `release/reports/summary.{json,md}`: totals by $q$, by family, and after
+  deduplication.
 - `release/manifest.json`: range, row counts, environment, code identity, Git
   revision, and SHA-256 checksums.
 

@@ -3,14 +3,14 @@
 The authority for the BBL classes is *Genus Zero Simple Knots* by Joshua Evan
 Greene, Shiyu Liang, and John Luecke (2026), especially Theorems 1.4, 6.1,
 10.17, and 10.18 and Section 10.1. The implementation uses the paper's
-least-positive-residue convention, $m^*$ with
-$mm^*\equiv1\pmod{q^2}$, and the normalization $g(0)=0$.
+least-positive-residue convention, $m^{\ast}$ with
+$mm^{\ast}\equiv1\pmod{q^2}$, and the normalization $g(0)=0$.
 
 For $k=cq$, $1\le c<q$, and $\gcd(c,q)=1$, put
 
 $$
-\ell=[m^*k]_{q^2},\qquad t=\ell/q,
-\qquad S=\{[jm]_{q^2}:1\le j\le\ell\}.
+\ell=[m^{\ast}k]_{q^2},\qquad t=\ell/q,
+\qquad S=\lbrace[jm]_{q^2}:1\le j\le\ell\rbrace.
 $$
 
 Then
@@ -34,7 +34,7 @@ $$
 $$
 
 The taut rational Seifert surface has $q$ boundary components, so
-$\chi(F)=2-2\,\mathrm{genus}(F)-q$. Therefore the integer stored in the
+$\chi(F)=2-2\mathrm{genus}(F)-q$. Therefore the integer stored in the
 `genus` column is
 
 $$
@@ -49,7 +49,7 @@ use it to compute the width.
 
 The README's direct case-2 row for
 $(q,m,d,\epsilon,n)=(7,30,5,+1,3)$ gives only
-$c=\pm1,\pm5=\{1,2,5,6\}$. This is not the full paper-authoritative set in
+$c=\pm1,\pm5=\lbrace1,2,5,6\rbrace$. This is not the full paper-authoritative set in
 that marked presentation.
 
 The paper also gives the coincident case-3 $n=2$ presentation $L(49,18)$,
@@ -61,11 +61,11 @@ $$
 c\longmapsto30c\equiv2c\pmod7.
 $$
 
-Thus the exceptional pair becomes $c=\pm3=\{3,4\}$, and the certified
+Thus the exceptional pair becomes $c=\pm3=\lbrace3,4\rbrace$, and the certified
 expected set at $L(49,30)$ is all six units modulo 7. The presentation index
 retains `source_m`, `coordinate_map`, and `c_multiplier` so this addition is
 auditable rather than silently folded into the prediction.
 
 Paper Theorem 1.4 also phrases its exceptional condition in signed parameters
-as $q=1-2d$. Under the positive-$q$ normalization in Theorems 6.1 and 10.17,
+as $q=1-2d$. Under the normalization with positive $q$ in Theorems 6.1 and 10.17,
 this is $q=2d\pm1$, exactly case 3 with $n=2$.
