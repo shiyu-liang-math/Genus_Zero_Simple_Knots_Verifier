@@ -3,13 +3,13 @@
 The authority for the BBL classes is *Genus Zero Simple Knots* by Joshua Evan
 Greene, Shiyu Liang, and John Luecke (2026), especially Theorems 1.4, 6.1,
 10.17, and 10.18 and Section 10.1. The implementation uses the paper's
-least-positive-residue convention, $m^{\ast}$ with
-$mm^{\ast}\equiv1\pmod{q^2}$, and the normalization $g(0)=0$.
+least-positive-residue convention, $m^{\mathord{\ast}}$ with
+$mm^{\mathord{\ast}}\equiv1\pmod{q^2}$, and the normalization $g(0)=0$.
 
 For $k=cq$, $1\le c<q$, and $\gcd(c,q)=1$, put
 
 $$
-\ell=[m^{\ast}k]_{q^2},\qquad t=\ell/q,
+\ell=[m^{\mathord{\ast}}k]_{q^2},\qquad t=\ell/q,
 \qquad S=\lbrace[jm]_{q^2}:1\le j\le\ell\rbrace.
 $$
 

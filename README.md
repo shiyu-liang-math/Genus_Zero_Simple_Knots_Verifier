@@ -63,12 +63,12 @@ on $(q,m\bmod q^2,c)$.
 
 ## Computing the extrema
 
-Put $p=q^2$, $k=cq$, and choose $m^{\ast}$ with
-$mm^{\ast}\equiv1\pmod p$. With $[x]_p$ denoting the least positive residue,
+Put $p=q^2$, $k=cq$, and choose $m^{\mathord{\ast}}$ with
+$mm^{\mathord{\ast}}\equiv1\pmod p$. With $[x]_p$ denoting the least positive residue,
 so $[0]_p=p$, define
 
 $$
-\ell=[m^{\ast}k]_p,\qquad t=\ell/q,\qquad
+\ell=[m^{\mathord{\ast}}k]_p,\qquad t=\ell/q,\qquad
 S=\lbrace[jm]_p:1\le j\le\ell\rbrace.
 $$
 
@@ -116,7 +116,7 @@ writes and per-partition validation, took 455.25 seconds.
 g0sv walk --q 5 --m 6 --c 1 --engine reference
 ```
 
-This reports $m^{\ast}=21$, $\ell=5$, $t=1$, unique maximum $g(4)=4$, unique
+This reports $m^{\mathord{\ast}}=21$, $\ell=5$, $t=1$, unique maximum $g(4)=4$, unique
 minimum $g(6)=-4$, and width $8=2q-2$.
 Stream the complete normalized walk as CSV with `--stream`.
 
